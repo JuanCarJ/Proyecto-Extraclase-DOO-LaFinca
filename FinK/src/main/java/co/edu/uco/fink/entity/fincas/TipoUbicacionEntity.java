@@ -7,11 +7,11 @@ public class TipoUbicacionEntity {
     private int identificador;
     private String lugar;
 
-    public TipoUbicacionEntity(){
+    private TipoUbicacionEntity(){
         setLugar(TextHelper.EMPTY);
     }
 
-    public TipoUbicacionEntity(final int identificador, final String lugar) {
+    private TipoUbicacionEntity(final int identificador, final String lugar) {
         setIdentificador(identificador);
         setLugar(lugar);
     }

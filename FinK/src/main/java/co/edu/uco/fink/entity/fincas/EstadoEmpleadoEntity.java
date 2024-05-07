@@ -8,11 +8,11 @@ public class EstadoEmpleadoEntity {
     private int identificador;
     private String nombre;
 
-    public EstadoEmpleadoEntity() {
+    private EstadoEmpleadoEntity() {
         setNombre(TextHelper.EMPTY);
     }
 
-    public EstadoEmpleadoEntity(final int identificador, final String nombre) {
+    private EstadoEmpleadoEntity(final int identificador, final String nombre) {
         setIdentificador(identificador);
         setNombre(nombre);
     }

@@ -10,13 +10,13 @@ public class PlazoEntity {
     private String fechaInicio;
     private String fechaFin;
 
-    public PlazoEntity(){
+    private PlazoEntity(){
         setTarea(TareaDTO.build());
         setFechaInicio(DateHelper.getDefaultDate());
         setFechaFin(DateHelper.getDefaultDate());
     }
 
-    public PlazoEntity(final int identificador, final TareaDTO tarea, final String fechaInicio, final String fechaFin) {
+    private PlazoEntity(final int identificador, final TareaDTO tarea, final String fechaInicio, final String fechaFin) {
         setIdentificador(identificador);
         setTarea(tarea);
         setFechaInicio(fechaInicio);
