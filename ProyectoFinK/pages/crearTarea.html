@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Tarea - FinK</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="../index.html">Inicio</a></li>
+                <li class="menu-item">
+                    <a href="#">Trabajos</a>
+                    <ul class="submenu">
+                        <li><a href="crearTarea.html">Crear Tarea</a></li>
+                        <li><a href="buscarTarea.html">Buscar Tarea</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="#">Almacenamiento</a></li>
+                <li class="menu-item"><a href="#">Finca</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="app">
+        <h1>Crear Tarea</h1>
+        <form @submit.prevent="enviarFormulario">
+            <div>
+                <label for="idEmpleado">Empleado Asignado:</label>
+                <select id="idEmpleado" v-model="tarea.idEmpleado">
+                    <option v-if="empleados.length === 0">Cargando empleados...</option>
+                    <option v-for="empleado in empleados" :key="empleado.NumeroDocumento" :value="empleado.NumeroDocumento">
+                        {{ empleado.Nombre }}
+                    </option>
+                    
+                </select>
+            </div>
+            <div>
+                <label for="tipoTarea">Tipo Tarea:</label>
+                <select id="tipoTarea" v-model="tarea.tipoTarea" @change="cambiarTipoTarea">
+                    <option value="">Seleccione un tipo</option>
+                    <option value="Trabajo Animal">Trabajo Animal</option>
+                    <option value="Trabajo Finca">Trabajo Finca</option>
+                </select>
+            </div>
+            <div v-if="tarea.tipoTarea === 'Trabajo Animal'">
+                <label for="tipoCuidadoAnimal">Tipo Cuidado Animal:</label>
+                <select id="tipoCuidadoAnimal" v-model="tarea.tipoCuidadoAnimal">
+                    <option value="Alimentacion">Alimentación</option>
+                    <option value="Cuidado Medico">Cuidado Médico</option>
+                    <option value="Limpieza">Limpieza</option>
+                </select>
+
+                <label for="animal">Animal:</label>
+                <input type="text" id="animal" v-model="tarea.animal">
+
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" v-model="tarea.descripcion"></textarea>
+            </div>
+            <div v-if="tarea.tipoTarea === 'Trabajo Finca'">
+                <label for="tipoTrabajoFinca">Tipo Trabajo Finca:</label>
+                <select id="tipoTrabajoFinca" v-model="tarea.tipoTrabajoFinca">
+                    <option value="Limpieza">Limpieza</option>
+                    <option value="Abastecimiento">Abastecimiento</option>
+                    <option value="Recoleccion">Recolección</option>
+                </select>
+
+                <label for="lugarFinca">Lugar Finca:</label>
+                <input type="text" id="lugarFinca" v-model="tarea.lugarFinca">
+
+                <label for="descripcionFinca">Descripción:</label>
+                <textarea id="descripcionFinca" v-model="tarea.descripcionFinca"></textarea>
+            </div>
+
+            <button type="submit">Crear Tarea</button>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="../js/app.js"></script>
+    <script>
+        const appData = () => ({
+            empleados: [],
+            tarea: {
+                idEmpleado: '',
+                tipoTarea: '',
+                tipoCuidadoAnimal: '',
+                animal: '',
+                descripcion: '',
+                tipoTrabajoFinca: '',
+                lugarFinca: '',
+                descripcionFinca: ''
+            }
+        });
+
+        const app = createVueApp(appData);
+        app.mount('#app');
+    </script>
+</body>
+</html>
