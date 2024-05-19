@@ -1,15 +1,26 @@
 package co.edu.uco.fink.dto.fincas;
 
 import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
+import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 
 public class LugarFincaDTO {
     private int identificador;
-
     private TipoUbicacionDTO ubicacion;
-
     private String nomenclatura;
-
     private FincaDTO finca;
+
+    public LugarFincaDTO() {
+        setUbicacion(TipoUbicacionDTO.build());
+        setNomenclatura(TextHelper.EMPTY);
+        setFinca(FincaDTO.build());
+    }
+
+    public LugarFincaDTO(final int identificador, final TipoUbicacionDTO ubicacion, final String nomenclatura, final FincaDTO finca) {
+        setIdentificador(identificador);
+        setUbicacion(ubicacion);
+        setNomenclatura(nomenclatura);
+        setFinca(finca);
+    }
 
     public final int getIdentificador() {
         return identificador;

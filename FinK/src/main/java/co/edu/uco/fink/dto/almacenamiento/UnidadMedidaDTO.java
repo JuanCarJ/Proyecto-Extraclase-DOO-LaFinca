@@ -3,11 +3,11 @@ package co.edu.uco.fink.dto.almacenamiento;
 import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 
 public class UnidadMedidaDTO {
+
     private int identificador;
+    private String Nombre;
 
-    private String nombre;
-
-    public UnidadMedidaDTO(){
+    public UnidadMedidaDTO (){
         setNombre(TextHelper.EMPTY);
     }
 
@@ -16,7 +16,7 @@ public class UnidadMedidaDTO {
         setNombre(nombre);
     }
 
-    public static final UnidadMedidaDTO build(){
+    public static final UnidadMedidaDTO Build() {
         return new UnidadMedidaDTO();
     }
 
@@ -30,11 +30,11 @@ public class UnidadMedidaDTO {
     }
 
     public final String getNombre() {
-        return nombre;
+        return Nombre;
     }
 
     public final UnidadMedidaDTO setNombre(final String nombre) {
-        this.nombre = TextHelper.applyTrim(nombre);
+        this.Nombre = TextHelper.applyTrim(nombre);
         return this;
     }
 }

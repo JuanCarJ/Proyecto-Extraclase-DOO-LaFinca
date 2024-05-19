@@ -1,48 +1,59 @@
-package co.edu.uco.fink.entity;
+package co.edu.uco.fink.entity.almacenamiento;
 
+import co.edu.uco.fink.crosscutting.helpers.NumericHelper;
+import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.fink.crosscutting.helpers.TextHelper;
-import static co.edu.uco.fink.crosscutting.helpers.NumericHelper.ZERO;
+import co.edu.uco.fink.dto.almacenamiento.TipoSuministroDTO;
+import co.edu.uco.fink.dto.almacenamiento.UnidadMedidaDTO;
 
-public final class TipoSuministroEntity {
-
+public class TipoSuministroEntity {
     private int ID;
-    private String descripcion;
+    private String nombre;
+    private UnidadMedidaEntity unidadMedida;
 
-    private TipoSuministroEntity(final int ID) {
+    public TipoSuministroEntity(final int ID){
         setID(ID);
-        setDescripcion(TextHelper.EMPTY);
+        setNombre(TextHelper.EMPTY);
+        setUnidadMedida(UnidadMedidaEntity.build());
     }
 
-    private TipoSuministroEntity(final int ID, final String descripcion) {
+    public TipoSuministroEntity(final int ID, final String nombre, final UnidadMedidaEntity unidadMedida) {
         setID(ID);
-        setDescripcion(descripcion);
+        setNombre(nombre);
+        setUnidadMedida(unidadMedida);
     }
 
     public static final TipoSuministroEntity build(final int ID){
         return new TipoSuministroEntity(ID);
     }
 
-    public static final TipoSuministroEntity build(final int ID, final String descripcion){
-        return new TipoSuministroEntity(ID, descripcion);
+    public static final TipoSuministroEntity build(final int ID, final String nombre, final UnidadMedidaEntity unidadMedida) {
+        return new TipoSuministroEntity(ID, nombre, unidadMedida);
     }
 
-    protected static final TipoSuministroEntity build(){
-        return new TipoSuministroEntity(ZERO);
-    }
+    protected static final TipoSuministroEntity build() { return new TipoSuministroEntity(NumericHelper.ZERO); }
 
-    public int getID() {
+    public final int getID() {
         return ID;
     }
 
-    private final void setID(final int ID) {
+    public final void setID(final int ID) {
         this.ID = ID;
     }
 
-    public final String getDescripcion() {
-        return descripcion;
+    public final String getNombre() {
+        return nombre;
     }
 
-    private final void setDescripcion(final String descripcion) {
-        this.descripcion = TextHelper.applyTrim(descripcion);
+    public final void setNombre(final String descripcion) {
+        this.nombre = TextHelper.applyTrim(descripcion);
+    }
+
+    public final UnidadMedidaEntity getUnidadMedida() {
+        return unidadMedida;
+    }
+
+    public final void setUnidadMedida(final UnidadMedidaEntity unidadMedida) {
+        this.unidadMedida = ObjectHelper.getObjectHelper().getDefault(unidadMedida, UnidadMedidaEntity.build());
     }
 }

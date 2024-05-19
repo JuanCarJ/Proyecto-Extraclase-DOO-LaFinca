@@ -2,7 +2,7 @@ package co.edu.uco.fink.data.dao.sql.azuresql;
 
 import co.edu.uco.fink.data.dao.CiudadDAO;
 import co.edu.uco.fink.data.dao.sql.SQLconnection;
-import co.edu.uco.fink.entity.CiudadEntity;
+import co.edu.uco.fink.entity.finca.CiudadEntity;
 
 import java.sql.Connection;
 import java.util.List;

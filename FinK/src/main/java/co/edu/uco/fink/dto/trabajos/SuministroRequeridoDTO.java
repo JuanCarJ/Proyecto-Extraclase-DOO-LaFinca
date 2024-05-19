@@ -2,29 +2,28 @@ package co.edu.uco.fink.dto.trabajos;
 
 import co.edu.uco.fink.crosscutting.helpers.NumericHelper;
 import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
-import co.edu.uco.fink.dto.almacenamiento.SuministroDTO;
+import co.edu.uco.fink.dto.almacenamiento.TipoSuministroDTO;
 
 public class SuministroRequeridoDTO {
 
     private int identificador;
-
-    private TareaDTO tarea;
-
-    private SuministroDTO suministro;
+    private TareaFincaDTO tarea;
+    private TipoSuministroDTO suministro;
+    private int cantidad;
 
     private float cantidadRequerida;
 
     public SuministroRequeridoDTO(){
-        setTarea(TareaDTO.build());
-        setSuministro(SuministroDTO.build());
-        setCantidadRequerida(NumericHelper.ZERO);
+        setTarea(TareaFincaDTO.Build());
+        setSuministro(TipoSuministroDTO.build());
+        setCantidad(NumericHelper.ZERO);
     }
 
-    public SuministroRequeridoDTO(final int identificador, final TareaDTO tarea, final SuministroDTO suministro, final float cantidadRequerida) {
+    public SuministroRequeridoDTO(final int identificador, final TareaFincaDTO tarea, final TipoSuministroDTO suministro, final int cantidad) {
         setIdentificador(identificador);
         setTarea(tarea);
         setSuministro(suministro);
-        setCantidadRequerida(cantidadRequerida);
+        setCantidad(cantidad);
     }
 
     public static final SuministroRequeridoDTO build(){
@@ -40,21 +39,21 @@ public class SuministroRequeridoDTO {
         return this;
     }
 
-    public final TareaDTO getTarea() {
+    public final TareaFincaDTO getTarea() {
         return tarea;
     }
 
-    public final SuministroRequeridoDTO setTarea(final TareaDTO tarea) {
-        this.tarea = ObjectHelper.getObjectHelper().getDefault(tarea,TareaDTO.build());
+    public final SuministroRequeridoDTO setTarea(final TareaFincaDTO tarea) {
+        this.tarea = ObjectHelper.getObjectHelper().getDefault(tarea, TareaFincaDTO.Build());
         return this;
     }
 
-    public final SuministroDTO getSuministro() {
+    public final TipoSuministroDTO getSuministro() {
         return suministro;
     }
 
-    public final SuministroRequeridoDTO setSuministro(final SuministroDTO suministro) {
-        this.suministro = ObjectHelper.getObjectHelper().getDefault(suministro, SuministroDTO.build());
+    public final SuministroRequeridoDTO setSuministro(final TipoSuministroDTO suministro) {
+        this.suministro = ObjectHelper.getObjectHelper().getDefault(suministro, TipoSuministroDTO.build());
         return this;
     }
 
@@ -62,8 +61,9 @@ public class SuministroRequeridoDTO {
         return cantidadRequerida;
     }
 
-    public final SuministroRequeridoDTO setCantidadRequerida(final float cantidadRequerida) {
-        this.cantidadRequerida = cantidadRequerida;
+    public final SuministroRequeridoDTO setCantidad(final int cantidad) {
+        this.cantidad = cantidad;
         return this;
     }
+
 }
