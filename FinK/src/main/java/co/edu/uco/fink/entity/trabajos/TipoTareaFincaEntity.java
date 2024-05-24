@@ -1,19 +1,18 @@
-package co.edu.uco.fink.entity.trabajos;
+package co.edu.uco.fink.entity;
 
 import co.edu.uco.fink.crosscutting.helpers.NumericHelper;
 import co.edu.uco.fink.crosscutting.helpers.TextHelper;
-import co.edu.uco.fink.dto.trabajos.TipoTareaFincaDTO;
 
 public class TipoTareaFincaEntity {
     private int identificador;
     private String Tipo;
 
-    public TipoTareaFincaEntity(final int identificador){
+    private TipoTareaFincaEntity(final int identificador){
         setIdentificador(identificador);
         setTipo(TextHelper.EMPTY);
     }
 
-    public TipoTareaFincaEntity(int identificador, final String tipo) {
+    private TipoTareaFincaEntity(int identificador, final String tipo) {
         setIdentificador(identificador);
         setTipo(tipo);
     }

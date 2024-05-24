@@ -1,14 +1,8 @@
-package co.edu.uco.fink.entity.trabajos;
+package co.edu.uco.fink.entity;
 
 import co.edu.uco.fink.crosscutting.helpers.NumericHelper;
 import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.fink.crosscutting.helpers.TextHelper;
-import co.edu.uco.fink.dto.fincas.EmpleadoDTO;
-import co.edu.uco.fink.dto.fincas.LugarFincaDTO;
-import co.edu.uco.fink.dto.trabajos.TareaFincaDTO;
-import co.edu.uco.fink.dto.trabajos.TipoTareaFincaDTO;
-import co.edu.uco.fink.entity.finca.EmpleadoEntity;
-import co.edu.uco.fink.entity.finca.LugarFincaEntity;
 
 public class TareaFincaEntity {
     private int identificador;
@@ -18,15 +12,15 @@ public class TareaFincaEntity {
     private LugarFincaEntity lugar;
     private String descripcion;
 
-    public TareaFincaEntity(){
+    private TareaFincaEntity(final int identificador){
         setEmpleadoAsignado(EmpleadoEntity.Build());
-        setTipoTrabajo(TipoTareaFincaDTO.build());
+        setTipoTrabajo(TipoTareaFincaEntity.build());
         setCodigo(NumericHelper.ZERO);
-        setLugar(LugarFincaDTO.build());
+        setLugar(LugarFincaEntity.build());
         setDescripcion(TextHelper.EMPTY);
     }
 
-    public TareaFincaDTO(final int identificador, final EmpleadoDTO empleadoAsignado, final TipoTareaFincaDTO tipoTrabajo, final int codigo, final LugarFincaDTO lugar, final String descripcion) {
+    private TareaFincaEntity(final int identificador, final EmpleadoEntity empleadoAsignado, final TipoTareaFincaEntity tipoTrabajo, final int codigo, final LugarFincaEntity lugar, final String descripcion) {
         setIdentificador(identificador);
         setEmpleadoAsignado(empleadoAsignado);
         setTipoTrabajo(tipoTrabajo);
@@ -35,61 +29,63 @@ public class TareaFincaEntity {
         setDescripcion(descripcion);
     }
 
-    public static final TareaFincaDTO Build(){
-        return new TareaFincaDTO();
+    public static final TareaFincaEntity Build(final int identificador){
+        return new TareaFincaEntity(identificador);
+    }
+
+    public static final TareaFincaEntity build(final int identificador, final EmpleadoEntity empleadoAsignado, final TipoTareaFincaEntity tipoTrabajo, final int codigo, final LugarFincaEntity lugar, final String descripcion) {
+        return new TareaFincaEntity(identificador, empleadoAsignado, tipoTrabajo, codigo, lugar, descripcion);
+    }
+
+    protected static final TareaFincaEntity build() {
+        return new TareaFincaEntity(NumericHelper.ZERO);
     }
 
     public final int getIdentificador() {
         return identificador;
     }
 
-    public final TareaFincaDTO setIdentificador(final int identificador) {
+    public final void setIdentificador(final int identificador) {
         this.identificador = identificador;
-        return this;
     }
 
-    public final EmpleadoDTO getEmpleadoAsignado() {
+    public final EmpleadoEntity getEmpleadoAsignado() {
         return empleadoAsignado;
     }
 
-    public final TareaFincaDTO setEmpleadoAsignado(final EmpleadoDTO empleadoAsignado) {
-        this.empleadoAsignado = ObjectHelper.getObjectHelper().getDefault(empleadoAsignado, EmpleadoDTO.build());
-        return this;
+    public final void setEmpleadoAsignado(final EmpleadoEntity empleadoAsignado) {
+        this.empleadoAsignado = ObjectHelper.getObjectHelper().getDefault(empleadoAsignado, EmpleadoEntity.Build());
     }
 
-    public final TipoTareaFincaDTO getTipoTrabajo() {
+    public final TipoTareaFincaEntity getTipoTrabajo() {
         return tipoTrabajo;
     }
 
-    public final TareaFincaDTO setTipoTrabajo(final TipoTareaFincaDTO tipoTrabajo) {
-        this.tipoTrabajo = ObjectHelper.getObjectHelper().getDefault(tipoTrabajo, TipoTareaFincaDTO.build());
-        return this;
+    public final void setTipoTrabajo(final TipoTareaFincaEntity tipoTrabajo) {
+        this.tipoTrabajo = ObjectHelper.getObjectHelper().getDefault(tipoTrabajo, TipoTareaFincaEntity.build());
     }
 
     public final int getCodigo() {
         return codigo;
     }
 
-    public final TareaFincaDTO setCodigo(final int codigo) {
+    public final void setCodigo(final int codigo) {
         this.codigo = codigo;
-        return this;
     }
 
-    public final LugarFincaDTO getLugar() {
+    public final LugarFincaEntity getLugar() {
         return lugar;
     }
 
-    public final TareaFincaDTO setLugar(final LugarFincaDTO lugar) {
-        this.lugar = ObjectHelper.getObjectHelper().getDefault(lugar, LugarFincaDTO.build());
-        return this;
+    public final void setLugar(final LugarFincaEntity lugar) {
+        this.lugar = ObjectHelper.getObjectHelper().getDefault(lugar, LugarFincaEntity.build());
     }
 
     public final String getDescripcion() {
         return descripcion;
     }
 
-    public final TareaFincaDTO setDescripcion(final String descripcion) {
+    public final void setDescripcion(final String descripcion) {
         this.descripcion = descripcion;
-        return this;
     }
 }

@@ -1,23 +1,21 @@
-package co.edu.uco.fink.entity.almacenamiento;
+package co.edu.uco.fink.entity;
 
 import co.edu.uco.fink.crosscutting.helpers.NumericHelper;
 import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.fink.crosscutting.helpers.TextHelper;
-import co.edu.uco.fink.dto.almacenamiento.TipoSuministroDTO;
-import co.edu.uco.fink.dto.almacenamiento.UnidadMedidaDTO;
 
 public class TipoSuministroEntity {
     private int ID;
     private String nombre;
-    private UnidadMedidaEntity unidadMedida;
+    private String unidadMedida;
 
-    public TipoSuministroEntity(final int ID){
+    private TipoSuministroEntity(final int ID){
         setID(ID);
         setNombre(TextHelper.EMPTY);
-        setUnidadMedida(UnidadMedidaEntity.build());
+        setUnidadMedida(TextHelper.EMPTY);
     }
 
-    public TipoSuministroEntity(final int ID, final String nombre, final UnidadMedidaEntity unidadMedida) {
+    private TipoSuministroEntity(final int ID, final String nombre, final String unidadMedida) {
         setID(ID);
         setNombre(nombre);
         setUnidadMedida(unidadMedida);
@@ -27,7 +25,7 @@ public class TipoSuministroEntity {
         return new TipoSuministroEntity(ID);
     }
 
-    public static final TipoSuministroEntity build(final int ID, final String nombre, final UnidadMedidaEntity unidadMedida) {
+    public static final TipoSuministroEntity build(final int ID, final String nombre, final String unidadMedida) {
         return new TipoSuministroEntity(ID, nombre, unidadMedida);
     }
 
@@ -49,11 +47,11 @@ public class TipoSuministroEntity {
         this.nombre = TextHelper.applyTrim(descripcion);
     }
 
-    public final UnidadMedidaEntity getUnidadMedida() {
+    public final String getUnidadMedida() {
         return unidadMedida;
     }
 
-    public final void setUnidadMedida(final UnidadMedidaEntity unidadMedida) {
-        this.unidadMedida = ObjectHelper.getObjectHelper().getDefault(unidadMedida, UnidadMedidaEntity.build());
+    public final void setUnidadMedida(final String unidadMedida) {
+        this.unidadMedida = TextHelper.applyTrim(unidadMedida);
     }
 }

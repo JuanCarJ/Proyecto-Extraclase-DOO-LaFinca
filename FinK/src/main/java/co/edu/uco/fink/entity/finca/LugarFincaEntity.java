@@ -1,26 +1,23 @@
-package co.edu.uco.fink.entity.finca;
+package co.edu.uco.fink.entity;
 
 import co.edu.uco.fink.crosscutting.helpers.NumericHelper;
 import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.fink.crosscutting.helpers.TextHelper;
-import co.edu.uco.fink.dto.fincas.FincaDTO;
-import co.edu.uco.fink.dto.fincas.LugarFincaDTO;
-import co.edu.uco.fink.dto.fincas.TipoUbicacionDTO;
 
 public class LugarFincaEntity {
     private int identificador;
-    private TipoUbicacionEntity ubicacion;
+    private String ubicacion;
     private String nomenclatura;
-    private FincaEntity finca;
+    private String finca;
 
-    public LugarFincaEntity(final int identificador) {
+    private LugarFincaEntity(final int identificador) {
         setIdentificador(identificador);
-        setUbicacion(TipoUbicacionEntity.build());
+        setUbicacion(TextHelper.EMPTY);
         setNomenclatura(TextHelper.EMPTY);
-        setFinca(FincaEntity.build());
+        setFinca(TextHelper.EMPTY);
     }
 
-    public LugarFincaEntity(final int identificador, final TipoUbicacionEntity ubicacion, final String nomenclatura, final FincaEntity finca) {
+    private LugarFincaEntity(final int identificador, final String ubicacion, final String nomenclatura, final String finca) {
         setIdentificador(identificador);
         setUbicacion(ubicacion);
         setNomenclatura(nomenclatura);
@@ -31,7 +28,7 @@ public class LugarFincaEntity {
         return new LugarFincaEntity(identificador);
     }
 
-    public static final LugarFincaEntity build(final int identificador, final TipoUbicacionEntity ubicacion, final String nomenclatura, final FincaEntity finca) {
+    public static final LugarFincaEntity build(final int identificador, final String ubicacion, final String nomenclatura, final String finca) {
         return new LugarFincaEntity(identificador, ubicacion, nomenclatura, finca);
     }
 
@@ -45,12 +42,12 @@ public class LugarFincaEntity {
         this.identificador = identificador;
     }
 
-    public final TipoUbicacionEntity getUbicacion() {
+    public final String getUbicacion() {
         return ubicacion;
     }
 
-    public final void setUbicacion(final TipoUbicacionEntity ubicacion) {
-        this.ubicacion = ObjectHelper.getObjectHelper().getDefault(ubicacion, TipoUbicacionEntity.build());
+    public final void setUbicacion(final String ubicacion) {
+        this.ubicacion = TextHelper.applyTrim(ubicacion);
     }
 
     public final String getNomenclatura() {
@@ -61,11 +58,11 @@ public class LugarFincaEntity {
         this.nomenclatura = nomenclatura;
     }
 
-    public final FincaEntity getFinca() {
+    public final String getFinca() {
         return finca;
     }
 
-    public final void setFinca(FincaEntity finca) {
-        this.finca = ObjectHelper.getObjectHelper().getDefault(finca, FincaEntity.build());
+    public final void setFinca(final String finca) {
+        this.finca = TextHelper.applyTrim(finca);
     }
 }
