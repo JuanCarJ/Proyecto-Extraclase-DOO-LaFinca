@@ -1,0 +1,853 @@
+Initialized menus.
+Network initialized.
+Initialized network.
+Initialized input.
+Initialized sound.
+Initialized texture loading.
+Initialized secondary framebuffers.
+Loaded menu and GUI textures.
+Mod manager initializing...
+Mod manager finished initialization!
+Fluffy Mod Manager v3.020 (formerly known as Fluffy Manager 5000)
+Current Windows user doesn't have adminstrative rights.
+If you run into issues, try right-clicking the modmanager executable and selecting run as admin.
+Finished init.
+There is a new version of Fluffy Mod Manager available online: v3.028
+Click on 'Downloads' to upgrade to the newest version
+Invalid or missing install path. Trying to automatically acquire it...
+Using this Devil May Cry 5 install: E:\SteamLibrary\steamapps\common\Devil May Cry 5
+Skipping reading Games\DMC5\rsz.json as it could not be read or does not exist.
+Saved info from game archives to Games\DMC5\ArchiveList.bin (9 archives loaded)
+Wrote Games\DMC5\ModPackagesCache.bin
+Wrote Games\DMC5\ModinfoCache.bin
+Refreshed list of mods.
+Invalidated natives/x64/message/staffrollname.msg.14 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_00_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_00_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_01_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_01_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_02_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_02_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_03_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_03_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_04_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_04_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_05_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_05_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_06_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_06_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_07_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_07_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_08_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_08_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_09_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/props/mesh/textures/sm1129_opcredit_09_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_101.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_250.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_250.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_320c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_320c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_500.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_501.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m00_501.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_010.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_010.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_500.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_501.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_501.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_502.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m01_502.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_101.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_140c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_140c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_360.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_360.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_382c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_382c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_500.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m02_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_420c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_420c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_500.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_600.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m03_600.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_430c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_430c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_490c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_490c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_500.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_600.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m04_600.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_120.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_120.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_190c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_190c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_500.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m05_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m06_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m06_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m06_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m06_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m06_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m06_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_360c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_360c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m07_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_380c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_380c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_500.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_600.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m08_600.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_101.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_260c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_260c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m09_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_101.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_230.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_230.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_270.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_270.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m10_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_101.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_102.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_102.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_120.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_120.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m11_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_101.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_102.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_102.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_240.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_240.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_301.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_301.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_402.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_402.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_403.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_403.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_404.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m12_404.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m13_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m13_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m13_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m13_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m14_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m14_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m14_110c.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m14_110c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m14_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m14_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m15_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m15_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m15_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m15_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m15_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m15_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m16_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m16_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m16_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m16_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m16_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m16_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m17_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m17_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m17_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m17_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m17_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m17_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_101.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_102.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_102.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_700.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_700.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_800.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m18_800.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m19_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m19_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m19_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m19_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m20_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m20_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m20_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m20_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m20_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m20_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_100.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_200.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_300.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_400.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_401.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/cut_m21_401.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/em5000_v.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/em5000_v_bp_dlc.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/mission02_dialog.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/sound/wwise/ui_title_v.bnk.2.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_00_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_00_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_01_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_01_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_02_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_02_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_03_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_03_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_04_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_04_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_05_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_05_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_06_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_06_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_07_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_07_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_08_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_08_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_09_albm.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/props/mesh/textures/sm1129_opcredit_09_atos.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m00_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m00_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m00_250.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m00_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m00_320c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m00_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m00_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m00_501.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m01_010.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m01_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m01_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m01_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m01_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m01_501.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m01_502.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m02_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m02_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m02_140c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m02_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m02_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m02_360.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m02_382c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m02_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m02_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m03_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m03_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m03_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m03_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m03_420c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m03_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m03_600.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m04_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m04_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m04_430c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m04_490c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m04_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m04_600.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m05_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m05_120.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m05_190c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m05_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m05_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m06_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m06_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m06_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m07_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m07_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m07_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m07_360c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m07_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m08_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m08_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m08_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m08_380c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m08_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m08_500.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m08_600.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m09_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m09_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m09_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m09_260c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m09_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m09_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m10_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m10_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m10_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m10_230.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m10_270.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m10_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m10_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m11_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m11_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m11_102.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m11_120.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m11_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m11_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_102.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_240.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_301.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_402.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_403.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m12_404.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m13_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m13_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m14_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m14_110c.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m14_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m15_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m15_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m15_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m16_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m16_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m16_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m17_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m17_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m17_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m18_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m18_101.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m18_102.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m18_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m18_700.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m18_800.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m19_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m19_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m20_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m20_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m20_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m21_100.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m21_200.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m21_300.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m21_400.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/cut_m21_401.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/streaming/sound/wwise/mission02_dialog.pck.3.x64.en in archive re_chunk_000.pak
+Invalidated natives/x64/ui/gui/ui1000/tex/ui1014_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/gui/ui2000/tex/ui2031_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/gui/ui3600/tex/ui3603_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/gui/ui3600/tex/ui3604_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/gui/ui7000/tex/ui7100_00_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/gui/ui7000/tex/ui7100_01_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/mesh/ui3601/tex/monthcount2_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/mesh/ui3603/tex/verseui_first_blur_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/mesh/ui3603/tex/verseui_first_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/mesh/ui3603/tex/verseui_second_blur_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/mesh/ui3603/tex/verseui_second_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/mesh/ui7120/tex/logoword_iam.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/texture/re_logo.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/texture/ui0000_01_im.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/ui/texture/ui0000_02_im.tex.11 in archive re_chunk_000.pak
+Invalidated natives/x64/message/staffrollname.msg.14 in archive re_chunk_000.pak.patch_003.pak
+Invalidated natives/x64/message/staffrollname.msg.14 in archive re_chunk_000.pak.patch_004.pak
+Invalidated natives/x64/message/staffrollname.msg.14 in archive re_chunk_000.pak.patch_005.pak
+Invalidated natives/x64/message/staffrollname.msg.14 in archive re_chunk_000.pak.patch_006.pak
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\message\staffrollname.msg.14 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\message\staffrollname.msg.14
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_00_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_00_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_00_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_00_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_01_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_01_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_01_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_01_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_02_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_02_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_02_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_02_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_03_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_03_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_03_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_03_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_04_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_04_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_04_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_04_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_05_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_05_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_05_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_05_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_06_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_06_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_06_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_06_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_07_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_07_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_07_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_07_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_08_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_08_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_08_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_08_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_09_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_09_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\props\mesh\textures\sm1129_opcredit_09_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\props\mesh\textures\sm1129_opcredit_09_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_101.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_101.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_250.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_250.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_250.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_250.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_320c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_320c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_320c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_320c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_500.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_500.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_501.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_501.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m00_501.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m00_501.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_010.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_010.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_010.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_010.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_500.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_500.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_501.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_501.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_501.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_501.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_502.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_502.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m01_502.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m01_502.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_101.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_101.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_140c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_140c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_140c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_140c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_360.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_360.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_360.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_360.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_382c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_382c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_382c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_382c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_500.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_500.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m02_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m02_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_420c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_420c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_420c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_420c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_500.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_500.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_600.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_600.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m03_600.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m03_600.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_430c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_430c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_430c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_430c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_490c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_490c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_490c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_490c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_500.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_500.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_600.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_600.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m04_600.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m04_600.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_120.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_120.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_120.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_120.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_190c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_190c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_190c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_190c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_500.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_500.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m05_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m05_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m06_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m06_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m06_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m06_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m06_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m06_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m06_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m06_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m06_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m06_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m06_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m06_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_360c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_360c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_360c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_360c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m07_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m07_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_380c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_380c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_380c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_380c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_500.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_500.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_600.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_600.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m08_600.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m08_600.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_101.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_101.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_260c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_260c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_260c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_260c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m09_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m09_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_101.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_101.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_230.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_230.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_230.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_230.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_270.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_270.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_270.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_270.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m10_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m10_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_101.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_101.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_102.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_102.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_102.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_102.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_120.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_120.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_120.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_120.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m11_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m11_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_101.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_101.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_102.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_102.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_102.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_102.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_240.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_240.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_240.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_240.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_301.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_301.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_301.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_301.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_402.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_402.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_402.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_402.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_403.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_403.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_403.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_403.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_404.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_404.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m12_404.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m12_404.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m13_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m13_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m13_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m13_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m13_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m13_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m13_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m13_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m14_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m14_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m14_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m14_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m14_110c.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m14_110c.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m14_110c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m14_110c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m14_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m14_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m14_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m14_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m15_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m15_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m15_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m15_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m15_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m15_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m15_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m15_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m15_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m15_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m15_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m15_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m16_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m16_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m16_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m16_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m16_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m16_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m16_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m16_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m16_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m16_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m16_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m16_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m17_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m17_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m17_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m17_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m17_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m17_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m17_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m17_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m17_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m17_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m17_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m17_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_101.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_101.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_102.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_102.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_102.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_102.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_700.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_700.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_700.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_700.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_800.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_800.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m18_800.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m18_800.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m19_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m19_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m19_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m19_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m19_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m19_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m19_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m19_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m20_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m20_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m20_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m20_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m20_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m20_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m20_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m20_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m20_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m20_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m20_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m20_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_100.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_100.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_200.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_200.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_300.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_300.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_400.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_400.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_401.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_401.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\cut_m21_401.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\cut_m21_401.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\em5000_v.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\em5000_v.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\em5000_v_bp_dlc.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\em5000_v_bp_dlc.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\ingame_cmn_v_dlc.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\ingame_cmn_v_dlc.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\mission02_dialog.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\mission02_dialog.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\ui_title_v.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\ui_title_v.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\sound\wwise\ui_title_v_dlc.bnk.2.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\sound\wwise\ui_title_v_dlc.bnk.2.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_00_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_00_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_00_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_00_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_01_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_01_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_01_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_01_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_02_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_02_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_02_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_02_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_03_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_03_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_03_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_03_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_04_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_04_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_04_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_04_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_05_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_05_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_05_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_05_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_06_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_06_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_06_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_06_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_07_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_07_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_07_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_07_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_08_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_08_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_08_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_08_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_09_albm.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_09_albm.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_09_atos.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\props\mesh\textures\sm1129_opcredit_09_atos.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m00_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m00_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m00_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m00_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m00_250.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m00_250.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m00_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m00_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m00_320c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m00_320c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m00_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m00_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m00_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m00_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m00_501.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m00_501.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m01_010.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m01_010.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m01_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m01_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m01_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m01_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m01_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m01_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m01_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m01_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m01_501.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m01_501.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m01_502.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m01_502.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m02_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m02_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m02_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m02_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m02_140c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m02_140c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m02_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m02_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m02_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m02_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m02_360.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m02_360.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m02_382c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m02_382c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m02_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m02_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m02_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m02_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m03_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m03_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m03_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m03_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m03_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m03_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m03_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m03_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m03_420c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m03_420c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m03_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m03_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m03_600.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m03_600.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m04_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m04_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m04_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m04_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m04_430c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m04_430c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m04_490c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m04_490c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m04_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m04_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m04_600.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m04_600.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m05_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m05_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m05_120.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m05_120.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m05_190c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m05_190c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m05_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m05_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m05_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m05_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m06_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m06_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m06_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m06_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m06_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m06_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m07_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m07_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m07_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m07_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m07_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m07_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m07_360c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m07_360c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m07_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m07_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m08_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m08_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m08_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m08_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m08_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m08_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m08_380c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m08_380c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m08_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m08_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m08_500.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m08_500.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m08_600.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m08_600.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m09_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m09_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m09_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m09_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m09_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m09_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m09_260c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m09_260c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m09_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m09_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m09_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m09_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m10_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m10_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m10_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m10_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m10_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m10_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m10_230.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m10_230.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m10_270.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m10_270.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m10_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m10_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m10_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m10_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m11_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m11_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m11_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m11_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m11_102.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m11_102.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m11_120.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m11_120.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m11_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m11_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m11_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m11_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_102.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_102.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_240.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_240.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_301.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_301.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_402.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_402.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_403.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_403.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m12_404.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m12_404.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m13_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m13_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m13_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m13_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m14_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m14_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m14_110c.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m14_110c.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m14_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m14_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m15_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m15_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m15_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m15_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m15_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m15_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m16_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m16_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m16_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m16_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m16_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m16_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m17_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m17_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m17_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m17_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m17_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m17_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m18_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m18_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m18_101.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m18_101.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m18_102.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m18_102.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m18_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m18_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m18_700.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m18_700.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m18_800.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m18_800.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m19_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m19_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m19_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m19_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m20_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m20_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m20_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m20_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m20_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m20_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m21_100.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m21_100.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m21_200.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m21_200.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m21_300.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m21_300.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m21_400.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m21_400.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\cut_m21_401.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\cut_m21_401.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\streaming\sound\wwise\mission02_dialog.pck.3.x64.en to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\streaming\sound\wwise\mission02_dialog.pck.3.x64.en
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\gui\ui1000\tex\ui1014_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\gui\ui1000\tex\ui1014_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\gui\ui2000\tex\ui2031_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\gui\ui2000\tex\ui2031_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\gui\ui3600\tex\ui3603_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\gui\ui3600\tex\ui3603_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\gui\ui3600\tex\ui3604_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\gui\ui3600\tex\ui3604_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\gui\ui7000\tex\ui7100_00_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\gui\ui7000\tex\ui7100_00_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\gui\ui7000\tex\ui7100_01_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\gui\ui7000\tex\ui7100_01_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\mesh\ui3601\tex\monthcount2_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\mesh\ui3601\tex\monthcount2_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\mesh\ui3603\tex\verseui_first_blur_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\mesh\ui3603\tex\verseui_first_blur_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\mesh\ui3603\tex\verseui_first_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\mesh\ui3603\tex\verseui_first_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\mesh\ui3603\tex\verseui_second_blur_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\mesh\ui3603\tex\verseui_second_blur_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\mesh\ui3603\tex\verseui_second_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\mesh\ui3603\tex\verseui_second_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\mesh\ui7120\tex\logoword_iam.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\mesh\ui7120\tex\logoword_iam.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\texture\re_logo.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\texture\re_logo.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\texture\ui0000_01_im.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\texture\ui0000_01_im.tex.11
+Installed mod file by copying Games\DMC5\Mods\Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677\natives\x64\ui\texture\ui0000_02_im.tex.11 to E:\SteamLibrary\steamapps\common\Devil May Cry 5\natives\x64\ui\texture\ui0000_02_im.tex.11
+Copied 411 files.
+Modified 413 paths in game archives.
+Installed mod: Devil May Cry V Doblaje latino Beta-3618-0-8-0-1711868677
+Mod manager de-initializing...
+Wrote Games\DMC5\ModinfoCache.bin
+Mod manager finished de-initialization!

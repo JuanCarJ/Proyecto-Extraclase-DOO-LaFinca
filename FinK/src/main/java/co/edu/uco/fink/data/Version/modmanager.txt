@@ -1,0 +1,4 @@
+v3.020
+WallpapersSize = 16141004
+MiniGamesSize = 3137043
+MiniGames-ModelsSize = 3226591

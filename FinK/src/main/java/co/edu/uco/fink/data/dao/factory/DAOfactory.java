@@ -1,10 +1,12 @@
 package co.edu.uco.fink.data.dao.factory;
 
-import co.edu.uco.fink.data.dao.CiudadDAO;
-import co.edu.uco.fink.data.dao.DepartamentoDAO;
-import co.edu.uco.fink.data.dao.PaisDAO;
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy;
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.custom.DataFinKException;
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje;
+import co.edu.uco.fink.data.dao.*;
 import co.edu.uco.fink.data.dao.factory.enums.Factory;
 import co.edu.uco.fink.data.dao.factory.sql.azureSQL.AzureSQLDAOfactory;
+import co.edu.uco.fink.data.dao.factory.sql.postgreSQL.PostgreSQLDAOfactory;
 
 public abstract class DAOfactory {
 
@@ -14,8 +16,6 @@ public abstract class DAOfactory {
             case AZURE_SQL: {
 
                 return new AzureSQLDAOfactory();
-
-                break;
             }
             case SQL_SERVER: {
 
@@ -23,40 +23,27 @@ public abstract class DAOfactory {
                 var mensajeTecnico = "No existe configurada una factoria de datos para una base de datos SQL_SERVER";
 
                 throw new DataFinKException(mensajeTecnico, mensajeUsuario);
-
-                break;
             }
             case POSTGRESQL: {
 
-                var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
-                var mensajeTecnico = "No existe configurada una factoria de datos para una base de datos POSTGRESQL";
-
-                throw new DataFinKException(mensajeTecnico, mensajeUsuario);
-
-                break;
+                return new PostgreSQLDAOfactory();
             }
             case MYSQL: {
                 var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
                 var mensajeTecnico = "No existe configurada una factoria de datos para una base de datos MYSQL";
 
                 throw new DataFinKException(mensajeTecnico, mensajeUsuario);
-
-                break;
             }
             case ORACLE: {
                 var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
                 var mensajeTecnico = "No existe configurada una factoria de datos para una base de datos ORACLE";
 
                 throw new DataFinKException(mensajeTecnico, mensajeUsuario);
-
-                break;
             }
             default: {
                 return new AzureSQLDAOfactory();
             }
         }
-
-        return null;
     }
 
     protected abstract void obtenerConexion();
@@ -69,16 +56,19 @@ public abstract class DAOfactory {
 
     public abstract void cerrarConexion();
 
-    public abstract PaisDAO getPaisDAO();
+   public abstract EmpleadoDAO getEmpleadoDAO();
 
-    public abstract DepartamentoDAO getDepartamentoDAO();
+    public abstract LugarFincaDAO getLugarFincaDAO();
 
-    public abstract CiudadDAO getCiudadDAO();
+    public abstract RegistroEstadoTareaDAO getRegistroEstadoTareaDAO();
 
-   /* public static void main(String[] args){
-        DAOfactory.getFactory(Factory.AZURE_SQL).getPaisDAO().crear(null);
-        DAOfactory.getFactory(Factory.AZURE_SQL).getPaisDAO().actualizar(null);
-        DAOfactory.getFactory(Factory.AZURE_SQL).getPaisDAO().eliminar(0);
-        List<PaisEntity> resultados = DAOfactory.getFactory(Factory.AZURE_SQL).getPaisDAO().consultar(null);
-    } */ // TODO
+    public abstract SuministroRequeridoDAO getSuministroRequeridoDAO();
+
+    public abstract TareaFincaDAO getTareaFincaDAO();
+
+    public abstract TipoEstadoDAO getTipoEstadoDAO();
+
+    public abstract TipoSuministroDAO getTipoSuministroDAO();
+
+    public abstract TipoTareaFincaDAO getTipoTareaFincaDAO();
 }
