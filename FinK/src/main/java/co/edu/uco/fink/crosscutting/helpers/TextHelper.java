@@ -5,6 +5,8 @@ public final class TextHelper {
 
     public static final String EMPTY = "";
 
+    public static final String UNDERLINE = "_";
+
     private TextHelper(){
         super();
     }
@@ -28,4 +30,17 @@ public final class TextHelper {
     public static final String getDefault(final String string){
         return getDefault(string, EMPTY);
     }
+
+    public static final String concatenate(final String... strings){
+        final var sb = new StringBuilder(EMPTY);
+
+        if (!getObjectHelper().isNUll(strings)){
+            for (final var string : strings){
+                sb.append(applyTrim(string));
+            }
+        }
+
+        return sb.toString();
+    }
+
 }

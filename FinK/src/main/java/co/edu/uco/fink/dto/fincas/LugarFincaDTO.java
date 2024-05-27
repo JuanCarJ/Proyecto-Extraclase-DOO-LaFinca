@@ -5,17 +5,17 @@ import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 
 public class LugarFincaDTO {
     private int identificador;
-    private TipoUbicacionDTO ubicacion;
+    private String ubicacion;
     private String nomenclatura;
-    private FincaDTO finca;
+    private String finca;
 
     public LugarFincaDTO() {
-        setUbicacion(TipoUbicacionDTO.build());
+        setUbicacion(TextHelper.EMPTY);
         setNomenclatura(TextHelper.EMPTY);
-        setFinca(FincaDTO.build());
+        setFinca(TextHelper.EMPTY);
     }
 
-    public LugarFincaDTO(final int identificador, final TipoUbicacionDTO ubicacion, final String nomenclatura, final FincaDTO finca) {
+    public LugarFincaDTO(final int identificador, final String ubicacion, final String nomenclatura, final String finca) {
         setIdentificador(identificador);
         setUbicacion(ubicacion);
         setNomenclatura(nomenclatura);
@@ -35,12 +35,12 @@ public class LugarFincaDTO {
         return new LugarFincaDTO();
     }
 
-    public final TipoUbicacionDTO getUbicacion() {
+    public final String  getUbicacion() {
         return ubicacion;
     }
 
-    public final LugarFincaDTO setUbicacion(final TipoUbicacionDTO ubicacion) {
-        this.ubicacion = ObjectHelper.getObjectHelper().getDefault(ubicacion, TipoUbicacionDTO.build());
+    public final LugarFincaDTO setUbicacion(final String ubicacion) {
+        this.ubicacion = TextHelper.applyTrim(ubicacion);
         return this;
     }
 
@@ -53,12 +53,12 @@ public class LugarFincaDTO {
         return this;
     }
 
-    public final FincaDTO getFinca() {
+    public final String getFinca() {
         return finca;
     }
 
-    public final LugarFincaDTO setFinca(FincaDTO finca) {
-        this.finca = ObjectHelper.getObjectHelper().getDefault(finca, FincaDTO.build());
+    public final LugarFincaDTO setFinca(final String finca) {
+        this.finca = TextHelper.applyTrim(finca);
         return this;
     }
 }

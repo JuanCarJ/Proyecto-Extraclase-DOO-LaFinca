@@ -2,16 +2,19 @@ package co.edu.uco.fink.crosscutting.helpers;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
 
 public class DateHelper {
 
-    private static final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("dd-MM-yyy HH:mm");
-
-    public static final String defaultDate = LocalDateTime.now().format(dateFormat);
+    private static final DateHelper instance = new DateHelper();
 
     private DateHelper(){
         super();
     }
 
+    public static final LocalDateTime getDate(final LocalDateTime Fecha){
+        return ObjectHelper.getObjectHelper().isNUll(Fecha) ? LocalDateTime.now() : Fecha;
+    }
 
 }

@@ -11,7 +11,6 @@ public class SuministroRequeridoDTO {
     private TipoSuministroDTO suministro;
     private int cantidad;
 
-    private float cantidadRequerida;
 
     public SuministroRequeridoDTO(){
         setTarea(TareaFincaDTO.Build());
@@ -57,8 +56,8 @@ public class SuministroRequeridoDTO {
         return this;
     }
 
-    public final float getCantidadRequerida() {
-        return cantidadRequerida;
+    public final float getCantidad() {
+        return cantidad;
     }
 
     public final SuministroRequeridoDTO setCantidad(final int cantidad) {

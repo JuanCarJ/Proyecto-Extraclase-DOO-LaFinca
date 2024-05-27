@@ -10,33 +10,17 @@ public class EmpleadoDTO {
 
     private int documento;
 
-    private String clave;
-
-    private String nombre;
-
-    private String telefono;
-
-    private FincaDTO finca;
-
-    private EstadoEmpleadoDTO estado;
+    private String estado;
 
     public EmpleadoDTO(){
         setDocumento(NumericHelper.ZERO);
-        setClave(TextHelper.EMPTY);
-        setNombre(TextHelper.EMPTY);
-        setTelefono(TextHelper.EMPTY);
-        setFinca(FincaDTO.build());
-        setEstado(EstadoEmpleadoDTO.build());
+        setEstado(TextHelper.EMPTY);
     }
 
-    public EmpleadoDTO(final int identificador, final int documento, final String clave, final String nombre, final String telefono, final FincaDTO finca, final EstadoEmpleadoDTO estado) {
+    public EmpleadoDTO(final int identificador, final int documento, final String estado) {
         setIdentificador(identificador);
         setDocumento(documento);
-        setClave(clave);
-        setNombre(nombre);
-        setTelefono(telefono);
-        setFinca(finca);
-        setEstado(estado);
+        setEstado(TextHelper.EMPTY);
     }
 
     public static final EmpleadoDTO build(){
@@ -61,48 +45,12 @@ public class EmpleadoDTO {
         return this;
     }
 
-    public final String getClave() {
-        return clave;
-    }
-
-    public final EmpleadoDTO setClave(final String clave) {
-        this.clave = TextHelper.applyTrim(clave);
-        return this;
-    }
-
-    public final String getNombre() {
-        return nombre;
-    }
-
-    public final EmpleadoDTO setNombre(final String nombre) {
-        this.nombre = TextHelper.applyTrim(nombre);
-        return this;
-    }
-
-    public final String getTelefono() {
-        return telefono;
-    }
-
-    public final EmpleadoDTO setTelefono(final String telefono) {
-        this.telefono = telefono;
-        return this;
-    }
-
-    public final FincaDTO getFinca() {
-        return finca;
-    }
-
-    public final EmpleadoDTO setFinca(final FincaDTO finca) {
-        this.finca = ObjectHelper.getObjectHelper().getDefault(finca, FincaDTO.build());
-        return this;
-    }
-
-    public EstadoEmpleadoDTO getEstado() {
+    public final String getEstado() {
         return estado;
     }
 
-    public final EmpleadoDTO setEstado(final EstadoEmpleadoDTO estado) {
-        this.estado = ObjectHelper.getObjectHelper().getDefault(estado, EstadoEmpleadoDTO.build());
+    public final EmpleadoDTO setEstado(final String estado) {
+        this.estado = TextHelper.applyTrim(estado);
         return this;
     }
 }

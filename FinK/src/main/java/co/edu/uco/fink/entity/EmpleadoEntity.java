@@ -7,23 +7,26 @@ import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 public class EmpleadoEntity {
     private int identificador;
     private int documento;
+    private String estado;
 
     private EmpleadoEntity(final int identificador){
         setIdentificador(identificador);
         setDocumento(NumericHelper.ZERO);
+        setEstado(TextHelper.EMPTY);
     }
 
-    private EmpleadoEntity(final int identificador, final int documento) {
+    private EmpleadoEntity(final int identificador, final int documento, final String estado) {
         setIdentificador(identificador);
         setDocumento(documento);
+        setEstado(estado);
     }
 
     public static final EmpleadoEntity Build(final int identificador){
         return new EmpleadoEntity(identificador);
     }
 
-    public static final EmpleadoEntity Build(final int identificador, final int documento){
-        return new EmpleadoEntity(identificador, documento);
+    public static final EmpleadoEntity Build(final int identificador, final int documento, final String estado){
+        return new EmpleadoEntity(identificador, documento, estado);
     }
 
     protected static final EmpleadoEntity Build(){
@@ -45,5 +48,13 @@ public class EmpleadoEntity {
 
     public final void setDocumento(final int documento) {
         this.documento = documento;
+    }
+
+    public final String getEstado() {
+        return estado;
+    }
+
+    public final void setEstado(final String estado) {
+        this.estado = TextHelper.applyTrim(estado);
     }
 }

@@ -1,5 +1,6 @@
 package co.edu.uco.fink.entity;
 
+import co.edu.uco.fink.crosscutting.helpers.DateHelper;
 import co.edu.uco.fink.crosscutting.helpers.NumericHelper;
 import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.fink.dto.trabajos.RegistroEstadoTareaDTO;
@@ -17,22 +18,22 @@ public class RegistroEstadoTareaEntity {
     public RegistroEstadoTareaEntity(final int identificador){
         setTarea(TareaFincaEntity.build());
         setEstado(TipoEstadoEntity.build());
-        setFechaActualizacion();
+        setFechaActualizacion(LocalDateTime.now());
     }
 
-    public RegistroEstadoTareaEntity(final int identificador, final TareaFincaEntity tarea, final TipoEstadoEntity estado) {
+    public RegistroEstadoTareaEntity(final int identificador, final TareaFincaEntity tarea, final TipoEstadoEntity estado, final LocalDateTime fechaActualizacion) {
         setIdentificador(identificador);
         setTarea(tarea);
         setEstado(estado);
-        setFechaActualizacion();
+        setFechaActualizacion(fechaActualizacion);
     }
 
     public static final RegistroEstadoTareaEntity Build(final int identificador){
         return new RegistroEstadoTareaEntity(identificador);
     }
 
-    public static final RegistroEstadoTareaEntity build(final int identificador, final TareaFincaEntity tarea, final TipoEstadoEntity estado){
-        return new RegistroEstadoTareaEntity(identificador, tarea, estado);
+    public static final RegistroEstadoTareaEntity build(final int identificador, final TareaFincaEntity tarea, final TipoEstadoEntity estado, final LocalDateTime fechaActualizacion){
+        return new RegistroEstadoTareaEntity(identificador, tarea, estado, fechaActualizacion);
     }
 
     protected static final RegistroEstadoTareaEntity build(){
@@ -67,7 +68,7 @@ public class RegistroEstadoTareaEntity {
         return fechaActualizacion;
     }
 
-    public final void setFechaActualizacion() {
-        this.fechaActualizacion = LocalDateTime.now();
+    public final void setFechaActualizacion(final LocalDateTime fechaActualizacion) {
+        DateHelper.getDate(fechaActualizacion);
     }
 }

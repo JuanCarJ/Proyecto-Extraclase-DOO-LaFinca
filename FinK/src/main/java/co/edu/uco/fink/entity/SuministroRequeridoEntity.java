@@ -62,7 +62,7 @@ public class SuministroRequeridoEntity {
         this.suministro = ObjectHelper.getObjectHelper().getDefault(suministro, TipoSuministroEntity.build());
     }
 
-    public final float getCantidad() {
+    public final int getCantidad() {
         return cantidad;
     }
 

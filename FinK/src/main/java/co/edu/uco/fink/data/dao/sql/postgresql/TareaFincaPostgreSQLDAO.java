@@ -52,9 +52,13 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
         sentenciaSql.append("ON TF.TipoTrabajo = TT.Tipo");
         sentenciaSql.append("JOIN LugarFinca LF");
         sentenciaSql.append("ON TF.Lugar = LF.Identificador");
+        sentenciaSql.append("WHERE TF.tipotrabajo = ?");
         sentenciaSql.append("ORDER BY TipoTrabajo ASC");
 
+
+
         try (final PreparedStatement sentenciaPreparada = getConnection().prepareStatement(sentenciaSql.toString())){
+            sentenciaPreparada.setString(1, entidad.getTipoTrabajo().getTipo());
             try (final ResultSet resultado = sentenciaPreparada.executeQuery()){
                 List<TareaFincaEntity> Tareas = new ArrayList<>();
                 while (resultado.next()){

@@ -1,5 +1,9 @@
 package co.edu.uco.fink.crosscutting.helpers;
 
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy;
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.custom.CrosscuttingFinKException;
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -17,15 +21,15 @@ public final class SQLHelper {
         try{
             return !IsNull(connection) && !connection.isClosed();
         } catch (SQLException exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0007)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00007);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (Exception exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema INESPERADO tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0008)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00008);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
     }
 
@@ -35,22 +39,22 @@ public final class SQLHelper {
                 var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
                 var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00009);
 
-                throw new CrosscuttinFinKException(mensajeTecnico, mensajeUsuario);
+                throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario);
             }
 
             connection.close();
         } catch (final CrosscuttingFinKException exception) {
             throw exception;
         } catch (SQLException exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0010)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000010);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (Exception exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema INESPERADO tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0011)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000011);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
     }
 
@@ -58,31 +62,31 @@ public final class SQLHelper {
         try {
             if (!isOpen(connection)) {
                 var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
-                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00012);
+                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000012);
 
-                throw new CrosscuttinFinKException(mensajeTecnico, mensajeUsuario);
+                throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario);
             }
 
             if(connection.getAutoCommit()) {
                 var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
-                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00013);
+                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000013);
 
-                throw new CrosscuttinFinKException(mensajeTecnico, mensajeUsuario);
+                throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario);
             }
 
             connection.commit();
         } catch (final CrosscuttingFinKException exception) {
             throw exception;
         } catch (SQLException exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0014)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000014);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (Exception exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema INESPERADO tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0015)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000015);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
     }
 
@@ -90,31 +94,31 @@ public final class SQLHelper {
         try {
             if (!isOpen(connection)) {
                 var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
-                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00016);
+                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000016);
 
-                throw new CrosscuttinFinKException(mensajeTecnico, mensajeUsuario);
+                throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario);
             }
 
             if(connection.getAutoCommit()) {
                 var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
-                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00017);
+                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000017);
 
-                throw new CrosscuttinFinKException(mensajeTecnico, mensajeUsuario);
+                throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario);
             }
 
             connection.rollback();
         } catch (final CrosscuttingFinKException exception) {
             throw exception;
         } catch (SQLException exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0018)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000018);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (Exception exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema INESPERADO tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0019)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000019);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
     }
 
@@ -122,24 +126,24 @@ public final class SQLHelper {
         try {
             if (!isOpen(connection)) {
                 var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
-                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00020);
+                var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000020);
 
-                throw new CrosscuttinFinKException(mensajeTecnico, mensajeUsuario);
+                throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario);
             }
 
             connection.setAutoCommit(false);
         } catch (final CrosscuttingFinKException exception) {
             throw exception;
         } catch (SQLException exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0021)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000021);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (Exception exception) {
-            var mensajeUsuario = "Ha ocurrido un error llevando a cabo la operación deseada...";  //  TODO: MesageCatalogStrategy.getContenidoMensaje(CodigoMensaje,M00002);
-            var mensajeTecnico = "Se ha presentado un problema INESPERADO tratando de validar si la conexión SQL con la fuente de infromación deseada estaba cerrada..."; //   TODO: MessaggeCatalogStrategy.getContenidoMensaje(CodigoMensaje.M0022)
+            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000022);
 
-            throw new       // TODO: CrossciuttingFinKException(mensajeTecnico, mensajeUsuario, exception)
+            throw new CrosscuttingFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
     }
 }

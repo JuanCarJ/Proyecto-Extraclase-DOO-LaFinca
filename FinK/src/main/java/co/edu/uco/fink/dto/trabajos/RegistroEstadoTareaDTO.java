@@ -1,5 +1,6 @@
 package co.edu.uco.fink.dto.trabajos;
 
+import co.edu.uco.fink.crosscutting.helpers.DateHelper;
 import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
 
 import java.time.LocalDateTime;
@@ -14,14 +15,14 @@ public class RegistroEstadoTareaDTO {
     public RegistroEstadoTareaDTO(){
         setTarea(TareaFincaDTO.Build());
         setEstado(TipoEstadoDTO.Build());
-        setFechaActualizacion();
+        setFechaActualizacion(LocalDateTime.now());
     }
 
-    public RegistroEstadoTareaDTO(final int identificador, final TareaFincaDTO tarea, final TipoEstadoDTO estado) {
+    public RegistroEstadoTareaDTO(final int identificador, final TareaFincaDTO tarea, final TipoEstadoDTO estado, final LocalDateTime fechaActualizacion) {
         setIdentificador(identificador);
         setTarea(tarea);
         setEstado(estado);
-        setFechaActualizacion();
+        setFechaActualizacion(fechaActualizacion);
     }
 
     public static final RegistroEstadoTareaDTO Build(){
@@ -59,8 +60,8 @@ public class RegistroEstadoTareaDTO {
         return fechaActualizacion;
     }
 
-    public final RegistroEstadoTareaDTO setFechaActualizacion() {
-        this.fechaActualizacion = LocalDateTime.now();
+    public final RegistroEstadoTareaDTO setFechaActualizacion(final LocalDateTime fechaActualizacion) {
+        this.fechaActualizacion = DateHelper.getDate(fechaActualizacion);
         return this;
     }
 }

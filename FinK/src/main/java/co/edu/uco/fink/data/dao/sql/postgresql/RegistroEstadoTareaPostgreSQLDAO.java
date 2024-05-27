@@ -31,7 +31,7 @@ public class RegistroEstadoTareaPostgreSQLDAO extends SQLconnection implements R
             try (final ResultSet resultado = sentenciaPreparada.executeQuery()){
                 List<RegistroEstadoTareaEntity> Tareas = new ArrayList<>();
                 while (resultado.next()){
-                    RegistroEstadoTareaEntity suministroTMP = RegistroEstadoTareaEntity.build(resultado.getInt("RE.Identificador"), TareaFincaEntity.Build(resultado.getInt("T.Identificador")), TipoEstadoEntity.build(resultado.getInt("E.Identificador"), resultado.getString("E.Tipo")), (resultado.getTimestamp("RE.FechaActualización")).toLocalDateTime());
+                    RegistroEstadoTareaEntity suministroTMP = RegistroEstadoTareaEntity.build(resultado.getInt("RE.Identificador"), TareaFincaEntity.Build(resultado.getInt("T.Identificador")), TipoEstadoEntity.build(resultado.getInt("E.Identificador"), resultado.getString("E.Tipo")),(resultado.getDate("RE.FechaActualización").toLocalDate()).atStartOfDay());
                     listaSuministros.add(suministroTMP);
                 }
             }
@@ -59,7 +59,7 @@ public class RegistroEstadoTareaPostgreSQLDAO extends SQLconnection implements R
             sentenciaPreparada.setInt(1, entidad.getIdentificador());
             sentenciaPreparada.setInt(2, entidad.getTarea().getIdentificador());
             sentenciaPreparada.setString(3, entidad.getEstado().getTipo());
-            sentenciaPreparada.setTimestamp(4, Timestamp.valueOf(entidad.getFechaActualizacion()));
+            sentenciaPreparada.setDate(4, Date.valueOf((entidad.getFechaActualizacion()).toLocalDate()));
             sentenciaPreparada.executeUpdate();
         } catch (final SQLException exception) {
             var mensajeUsuario = "No ha sido posible llevar a cabo el registro de la información del nuevo país. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";

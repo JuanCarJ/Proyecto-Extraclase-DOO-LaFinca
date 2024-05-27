@@ -7,14 +7,14 @@ public class TipoSuministroDTO {
 
     private int ID;
     private String nombre;
-    private UnidadMedidaDTO unidadMedida;
+    private String unidadMedida;
 
     public TipoSuministroDTO(){
         setNombre(TextHelper.EMPTY);
-        setUnidadMedida(UnidadMedidaDTO.Build());
+        setUnidadMedida(TextHelper.EMPTY);
     }
 
-    public TipoSuministroDTO(final int ID, final String nombre, final UnidadMedidaDTO unidadMedida) {
+    public TipoSuministroDTO(final int ID, final String nombre, final String unidadMedida) {
         setID(ID);
         setNombre(nombre);
         setUnidadMedida(unidadMedida);
@@ -42,12 +42,12 @@ public class TipoSuministroDTO {
         return this;
     }
 
-    public final UnidadMedidaDTO getUnidadMedida() {
+    public final String getUnidadMedida() {
         return unidadMedida;
     }
 
-    public final TipoSuministroDTO setUnidadMedida(final UnidadMedidaDTO unidadMedida) {
-        this.unidadMedida = ObjectHelper.getObjectHelper().getDefault(unidadMedida, UnidadMedidaDTO.Build());
+    public final TipoSuministroDTO setUnidadMedida(final String unidadMedida) {
+        this.unidadMedida = TextHelper.applyTrim(unidadMedida);
         return this;
     }
 }
