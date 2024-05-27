@@ -6,9 +6,9 @@ function createVueApp(dataFunction) {
         methods: {
             enviarFormulario() {
                 if (this.validarFormulario()) {
-                    //const url = 'http://localhost:3000/tareas';
+                    //const url = 'http://localhost:3000/tareas'; URL API
                     //Quita los puntos de la cedula para que sea un número entero y enviarlo al servidor
-                    const data = { ...this.tarea, idEmpleado: this.tarea.idEmpleado.replace(/\./g, '') }; 
+                    const data = { ...this.tarea, idEmpleado: this.tarea.idEmpleado.replace(/\./g, '') }; // Quita los puntos para el JSON
 
                     fetch(url, {
                         method: 'POST',
@@ -69,35 +69,24 @@ function createVueApp(dataFunction) {
             },
             formatearCedula() {
                 let cedula = this.tarea.idEmpleado.replace(/\D/g, '');
-                //Agrega los puntos a la cédula para que sea mas legible
+                 //Agrega los puntos a la cédula para que sea mas legible
                 cedula = cedula.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
                 this.tarea.idEmpleado = cedula;
+            },
+            cargarDatos() {
+                fetch('../data/datos.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        this.lugaresFinca = data.lugaresFinca;
+                        this.suministros = data.suministros;
+                    })
+                    .catch(error => {
+                        console.error('Hubo un error al cargar los datos de suministros y lugares finca:', error);
+                    });
             }
         },
         mounted() {
-
-            this.lugaresFinca = [
-                'Pesebrera-A-Finca Vaquita Feliz',
-                'Gallinero-A-Finca Vaquita Feliz',
-                'Pastizal-A-Finca Vaquita Feliz',
-                'Pocilga-A-Finca Vaquita Feliz',
-                'Bodega-A-Finca Vaquita Feliz',
-                'Bodega-B-Finca Vaquita Feliz',
-                'Bodega-C-Finca Vaquita Feliz',
-                'Bodega-D-Finca Vaquita Feliz'
-
-            ];
-            this.suministros = [
-                'Maiz para Gallinas-gramo',
-                'Acetaminofen-gramo',
-                'Maiz para Gallinas-gramo',
-                'Heno para vaca-gramo',
-                'Valde-unidad',
-                'Trapera-unidad',
-                'Tramadol-mililitro',
-                'Jeringa-unidad',
-                'Barredora-unidad',
-            ];
+            this.cargarDatos();
         }
     });
 }
@@ -116,4 +105,3 @@ const appData = () => ({
 
 const app = createVueApp(appData);
 app.mount('#app');
-

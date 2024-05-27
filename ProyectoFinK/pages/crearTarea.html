@@ -46,8 +46,6 @@
                     <option v-for="lugar in lugaresFinca" :key="lugar" :value="lugar">{{ lugar }}</option>
                 </select>
             </div>
-
-            <!-- Tabla de Suministros -->
             <div>
                 <label for="suministrosRequeridos">Suministros Requeridos:</label>
                 <button type="button" @click="agregarSuministro">Agregar Suministro</button>
@@ -85,24 +83,6 @@
             <button type="submit">Crear Tarea</button>
         </form>
     </div>
-
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="../js/app.js"></script>
-    <script>
-        const appData = () => ({
-            tarea: {
-                idEmpleado: '',
-                tipoTrabajoFinca: '',
-                lugarFinca: '',
-                descripcion: '',
-                suministrosRequeridos: []
-            },
-            lugaresFinca: [],
-            suministros: []
-        });
-
-        const app = createVueApp(appData);
-        app.mount('#app');
-    </script>
 </body>
-</html>
