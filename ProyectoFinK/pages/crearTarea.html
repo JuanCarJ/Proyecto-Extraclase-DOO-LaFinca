@@ -15,7 +15,7 @@
                     <a href="#">Trabajos</a>
                     <ul class="submenu">
                         <li><a href="crearTarea.html">Crear Tarea</a></li>
-                        <li><a href="buscarTarea.html">Buscar Tarea</a></li>
+                        <li><a>Buscar Tarea</a></li>
                     </ul>
                 </li>
                 <li class="menu-item"><a href="#">Almacenamiento</a></li>
@@ -31,7 +31,7 @@
                 <input type="text" id="idEmpleado" v-model="tarea.idEmpleado" @input="formatearCedula">
             </div>
             <div>
-                <label for="tipoTrabajoFinca">Tipo Trabajo Finca:</label>
+                <label for="tipoTrabajoFinca">Tipo Trabajo:</label>
                 <select id="tipoTrabajoFinca" v-model="tarea.tipoTrabajoFinca">
                     <option value="" disabled>Seleccione un tipo</option>
                     <option value="Limpieza">Limpieza</option>
@@ -40,42 +40,26 @@
                 </select>
             </div>
             <div>
-                <label for="lugarFinca">Lugar Finca:</label>
-                <select id="lugarFinca" v-model="tarea.lugarFinca">
-                    <option value="" disabled>Seleccione un lugar</option>
-                    <option v-for="lugar in lugaresFinca" :key="lugar" :value="lugar">{{ lugar }}</option>
+                <label for="finca">Finca:</label>
+                <select id="finca" v-model="tarea.finca" @change="actualizarUbicaciones">
+                    <option value="" disabled>Seleccione una finca</option>
+                    <option v-for="(ubicaciones, finca) in fincas" :key="finca" :value="finca">{{ finca }}</option>
                 </select>
             </div>
             <div>
-                <label for="suministrosRequeridos">Suministros Requeridos:</label>
-                <button type="button" @click="agregarSuministro">Agregar Suministro</button>
-                <table v-if="tarea.suministrosRequeridos.length > 0">
-                    <thead>
-                        <tr>
-                            <th>Suministro</th>
-                            <th>Cantidad</th>
-                            <th>Acciones</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr v-for="(suministro, index) in tarea.suministrosRequeridos" :key="index">
-                            <td>
-                                <select v-model="suministro.nombre">
-                                    <option value="" disabled>Seleccione un suministro</option>
-                                    <option v-for="item in suministros" :key="item" :value="item">{{ item }}</option>
-                                </select>
-                            </td>
-                            <td>
-                                <input type="number" v-model="suministro.cantidad" min="1">
-                            </td>
-                            <td>
-                                <button type="button" @click="eliminarSuministro(index)">Eliminar</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <label for="ubicacion">Ubicación:</label>
+                <select id="ubicacion" v-model="tarea.ubicacion" @change="actualizarNomenclaturas">
+                    <option value="" disabled>Seleccione una ubicación</option>
+                    <option v-for="(nomenclaturas, ubicacion) in ubicaciones" :key="ubicacion" :value="ubicacion">{{ ubicacion }}</option>
+                </select>
             </div>
-
+            <div>
+                <label for="nomenclatura">Nomenclatura:</label>
+                <select id="nomenclatura" v-model="tarea.nomenclatura">
+                    <option value="" disabled>Seleccione una nomenclatura</option>
+                    <option v-for="nomenclatura in nomenclaturas" :key="nomenclatura" :value="nomenclatura">{{ nomenclatura }}</option>
+                </select>
+            </div>
             <div>
                 <label for="descripcion">Descripción:</label>
                 <textarea id="descripcion" v-model="tarea.descripcion"></textarea>
@@ -83,6 +67,26 @@
             <button type="submit">Crear Tarea</button>
         </form>
     </div>
+
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="../js/app.js"></script>
+    <script>
+        const appData = () => ({
+            tarea: {
+                idEmpleado: '',
+                tipoTrabajoFinca: '',
+                finca: '',
+                ubicacion: '',
+                nomenclatura: '',
+                descripcion: ''
+            },
+            fincas: {},
+            ubicaciones: {},
+            nomenclaturas: []
+        });
+
+        const app = createVueApp(appData);
+        app.mount('#app');
+    </script>
 </body>
+</html>

@@ -50,7 +50,7 @@ li.menu-item:hover > ul.submenu {
     display: block;
 }
 
-input[type="text"], select, textarea, input[type="number"], button {
+input[type="text"], select, textarea, button {
     padding: 8px;
     margin: 8px 0;
     border: 1px solid #ccc;
@@ -93,19 +93,4 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-}
-
-th {
-    background-color: #f4f4f4;
 }

@@ -1,23 +1,21 @@
 {
-    "lugaresFinca": [
-        "Pesebrera-A-Finca Vaquita Feliz",
-        "Gallinero-A-Finca Vaquita Feliz",
-        "Pastizal-A-Finca Vaquita Feliz",
-        "Pocilga-A-Finca Vaquita Feliz",
-        "Bodega-A-Finca Vaquita Feliz",
-        "Bodega-B-Finca Vaquita Feliz",
-        "Bodega-C-Finca Vaquita Feliz",
-        "Bodega-D-Finca Vaquita Feliz"
-    ],
-    "suministros": [
-        "Maiz para Gallinas-gramo",
-        "Acetaminofen-gramo",
-        "Maiz para Gallinas-gramo",
-        "Heno para vaca-gramo",
-        "Valde-unidad",
-        "Trapera-unidad",
-        "Tramadol-mililitro",
-        "Jeringa-unidad",
-        "Barredora-unidad"
-    ]
+    "fincas": {
+        "Finca Vaquita Feliz": {
+            "ubicaciones": {
+                "Pesebrera": ["A", "B", "C"],
+                "Gallinero": ["A", "B"],
+                "Pastizal": ["A", "B", "C", "D"],
+                "Pocilga": ["A", "B"]
+            }
+        },
+        "Finca El Granero": {
+            "ubicaciones": {
+                "Granero": ["A", "B"],
+                "Huerta": ["A", "B", "C"],
+                "Vinedo": ["A", "B"],
+                "Establo": ["A", "B", "C", "D"]
+            }
+        }
+    }
 }
+

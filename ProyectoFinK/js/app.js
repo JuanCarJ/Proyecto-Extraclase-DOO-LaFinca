@@ -7,8 +7,21 @@ function createVueApp(dataFunction) {
             enviarFormulario() {
                 if (this.validarFormulario()) {
                     //const url = 'http://localhost:3000/tareas'; URL API
-                    //Quita los puntos de la cedula para que sea un número entero y enviarlo al servidor
-                    const data = { ...this.tarea, idEmpleado: this.tarea.idEmpleado.replace(/\./g, '') }; // Quita los puntos para el JSON
+                    const data = {
+                        empleadoAsignado: {
+ 			                //Quita los puntos de la cedula para que sea un número entero y enviarlo al servidor
+                            documento: parseInt(this.tarea.idEmpleado.replace(/\./g, ''))
+                        },
+                        tipoTrabajo: {
+                            tipo: this.tarea.tipoTrabajoFinca
+                        },
+                        lugar: {
+                            finca: this.tarea.finca,
+                            ubicacion: this.tarea.ubicacion,
+                            nomenclatura: this.tarea.nomenclatura
+                        },
+                        descripcion: this.tarea.descripcion
+                    };
 
                     fetch(url, {
                         method: 'POST',
@@ -34,42 +47,21 @@ function createVueApp(dataFunction) {
                 }
             },
             validarFormulario() {
-                if (!this.tarea.idEmpleado || !this.tarea.tipoTrabajoFinca || !this.tarea.lugarFinca) {
+                if (!this.tarea.idEmpleado || !this.tarea.tipoTrabajoFinca || !this.tarea.finca || !this.tarea.ubicacion || !this.tarea.nomenclatura) {
                     alert("Todos los campos excepto descripción son obligatorios.");
                     return false;
-                }
-                if (!/^\d+$/.test(this.tarea.idEmpleado.replace(/\./g, ''))) {
-                    alert("La cédula del empleado debe ser un número entero.");
-                    return false;
-                }
-                const nombres = this.tarea.suministrosRequeridos.map(s => s.nombre);
-                if (new Set(nombres).size !== nombres.length) {
-                    alert("No se puede seleccionar el mismo suministro más de una vez.");
-                    return false;
-                }
-                for (let suministro of this.tarea.suministrosRequeridos) {
-                    if (!suministro.cantidad || suministro.cantidad <= 0) {
-                        alert("Si selecciona un suministro, debe especificar una cantidad mayor a 0.");
-                        return false;
-                    }
                 }
                 return true;
             },
             cambiarTipoTarea() {
                 this.tarea.tipoTrabajoFinca = '';
-                this.tarea.lugarFinca = '';
+                this.tarea.finca = '';
+                this.tarea.ubicacion = '';
+                this.tarea.nomenclatura = '';
                 this.tarea.descripcion = '';
-                this.tarea.suministrosRequeridos = [];
-            },
-            agregarSuministro() {
-                this.tarea.suministrosRequeridos.push({ nombre: '', cantidad: 0 });
-            },
-            eliminarSuministro(index) {
-                this.tarea.suministrosRequeridos.splice(index, 1);
             },
             formatearCedula() {
                 let cedula = this.tarea.idEmpleado.replace(/\D/g, '');
-                 //Agrega los puntos a la cédula para que sea mas legible
                 cedula = cedula.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
                 this.tarea.idEmpleado = cedula;
             },
@@ -77,12 +69,20 @@ function createVueApp(dataFunction) {
                 fetch('../data/datos.json')
                     .then(response => response.json())
                     .then(data => {
-                        this.lugaresFinca = data.lugaresFinca;
-                        this.suministros = data.suministros;
+                        this.fincas = data.fincas;
                     })
                     .catch(error => {
-                        console.error('Hubo un error al cargar los datos de suministros y lugares finca:', error);
+                        console.error('Hubo un error al cargar los datos:', error);
                     });
+            },
+            actualizarUbicaciones() {
+                this.ubicaciones = this.fincas[this.tarea.finca].ubicaciones || {};
+                this.tarea.ubicacion = '';
+                this.tarea.nomenclatura = '';
+            },
+            actualizarNomenclaturas() {
+                this.nomenclaturas = this.ubicaciones[this.tarea.ubicacion] || [];
+                this.tarea.nomenclatura = '';
             }
         },
         mounted() {
@@ -95,12 +95,14 @@ const appData = () => ({
     tarea: {
         idEmpleado: '',
         tipoTrabajoFinca: '',
-        lugarFinca: '',
-        descripcion: '',
-        suministrosRequeridos: []
+        finca: '',
+        ubicacion: '',
+        nomenclatura: '',
+        descripcion: ''
     },
-    lugaresFinca: [],
-    suministros: []
+    fincas: {},
+    ubicaciones: {},
+    nomenclaturas: []
 });
 
 const app = createVueApp(appData);
