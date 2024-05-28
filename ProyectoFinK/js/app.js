@@ -6,10 +6,9 @@ function createVueApp(dataFunction) {
         methods: {
             enviarFormulario() {
                 if (this.validarFormulario()) {
-                    //const url = 'http://localhost:3000/tareas'; URL API
+                    const url = 'http://localhost:8080/api/v1/tareaFinca'; 
                     const data = {
                         empleadoAsignado: {
- 			                //Quita los puntos de la cedula para que sea un número entero y enviarlo al servidor
                             documento: parseInt(this.tarea.idEmpleado.replace(/\./g, ''))
                         },
                         tipoTrabajo: {
@@ -28,7 +27,7 @@ function createVueApp(dataFunction) {
                         headers: {
                             'Content-Type': 'application/json'
                         },
-                        body: JSON.stringify(data) // Convierte el objeto a una cadena JSON
+                        body: JSON.stringify(data) 
                     })
                     .then(response => {
                         if (!response.ok) {
@@ -39,6 +38,7 @@ function createVueApp(dataFunction) {
                     .then(data => {
                         console.log('Éxito:', data);
                         alert('Tarea creada con éxito.');
+                        this.restablecerFormulario(); 
                     })
                     .catch(error => {
                         console.error('Error:', error);
@@ -72,7 +72,7 @@ function createVueApp(dataFunction) {
                         this.fincas = data.fincas;
                     })
                     .catch(error => {
-                        console.error('Hubo un error al cargar los datos:', error);
+                        console.error('Hubo un error al cargar los datos de los lugares finca', error);
                     });
             },
             actualizarUbicaciones() {
@@ -83,6 +83,14 @@ function createVueApp(dataFunction) {
             actualizarNomenclaturas() {
                 this.nomenclaturas = this.ubicaciones[this.tarea.ubicacion] || [];
                 this.tarea.nomenclatura = '';
+            },
+            restablecerFormulario() {
+                this.tarea.idEmpleado = '';
+                this.tarea.tipoTrabajoFinca = '';
+                this.tarea.finca = '';
+                this.tarea.ubicacion = '';
+                this.tarea.nomenclatura = '';
+                this.tarea.descripcion = '';
             }
         },
         mounted() {

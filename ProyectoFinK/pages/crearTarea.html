@@ -15,7 +15,7 @@
                     <a href="#">Trabajos</a>
                     <ul class="submenu">
                         <li><a href="crearTarea.html">Crear Tarea</a></li>
-                        <li><a>Buscar Tarea</a></li>
+                        <li><a href="buscarTarea.html">Buscar Tarea</a></li>
                     </ul>
                 </li>
                 <li class="menu-item"><a href="#">Almacenamiento</a></li>
@@ -31,7 +31,7 @@
                 <input type="text" id="idEmpleado" v-model="tarea.idEmpleado" @input="formatearCedula">
             </div>
             <div>
-                <label for="tipoTrabajoFinca">Tipo Trabajo:</label>
+                <label for="tipoTrabajoFinca">Tipo Trabajo Finca:</label>
                 <select id="tipoTrabajoFinca" v-model="tarea.tipoTrabajoFinca">
                     <option value="" disabled>Seleccione un tipo</option>
                     <option value="Limpieza">Limpieza</option>
@@ -67,26 +67,7 @@
             <button type="submit">Crear Tarea</button>
         </form>
     </div>
-
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="../js/app.js"></script>
-    <script>
-        const appData = () => ({
-            tarea: {
-                idEmpleado: '',
-                tipoTrabajoFinca: '',
-                finca: '',
-                ubicacion: '',
-                nomenclatura: '',
-                descripcion: ''
-            },
-            fincas: {},
-            ubicaciones: {},
-            nomenclaturas: []
-        });
-
-        const app = createVueApp(appData);
-        app.mount('#app');
-    </script>
 </body>
 </html>
