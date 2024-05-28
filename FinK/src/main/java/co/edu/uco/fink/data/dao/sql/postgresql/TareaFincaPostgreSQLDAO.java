@@ -15,7 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class TareaFincaPostgreSQLDAO extends SQLconnection implements TareaFincaDAO {
-    protected TareaFincaPostgreSQLDAO(final Connection connection) {
+
+    public TareaFincaPostgreSQLDAO(final Connection connection) {
         super(connection);
     }
 
@@ -45,15 +46,15 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
     public List<TareaFincaEntity> consultar(TareaFincaEntity entidad) {
         final var listaTareas = new ArrayList<TareaFincaEntity>();
         final var sentenciaSql = new StringBuilder();
-        sentenciaSql.append("SELECT TF.Identificador, TF.Codigo, TF.Descripcion, E.Identificador, E.NumeroDocumento, TT.Identificador, TT.Tipo, LF.ID, LF.Ubicacion, LF.Nomenclatura, LF.Finca ");
-        sentenciaSql.append("FROM TareaFinca TF JOIN Empleado E ");
-        sentenciaSql.append("ON TF.EmpleadoAsignado = E.Documento");
-        sentenciaSql.append("JOIN TipoTrabajo TT");
-        sentenciaSql.append("ON TF.TipoTrabajo = TT.Tipo");
-        sentenciaSql.append("JOIN LugarFinca LF");
-        sentenciaSql.append("ON TF.Lugar = LF.Identificador");
-        sentenciaSql.append("WHERE TF.tipotrabajo = ?");
-        sentenciaSql.append("ORDER BY TipoTrabajo ASC");
+        sentenciaSql.append("SELECT TF.id, TF.codigo, TF.descripcion, E.id, E.numerodocumento, E.estado, TT.id, TT.tipo, LF.id, LF.ubicacion, LF.nomenclatura, LF.finca ");
+        sentenciaSql.append("FROM tareafinca TF JOIN empleado E ");
+        sentenciaSql.append("ON TF.empleadoasignado = E.numerodocumento ");
+        sentenciaSql.append("JOIN tipotareafinca TT ");
+        sentenciaSql.append("ON TF.tipotrabajo = TT.tipo ");
+        sentenciaSql.append("JOIN lugarfinca LF ");
+        sentenciaSql.append("ON TF.lugar = LF.id ");
+        sentenciaSql.append("WHERE TF.tipotrabajo = ? ");
+        sentenciaSql.append("ORDER BY TF.tipotrabajo ASC");
 
 
 
@@ -62,7 +63,7 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
             try (final ResultSet resultado = sentenciaPreparada.executeQuery()){
                 List<TareaFincaEntity> Tareas = new ArrayList<>();
                 while (resultado.next()){
-                    TareaFincaEntity tareaTMP = TareaFincaEntity.build(resultado.getInt("TF.Identificador"), EmpleadoEntity.Build(resultado.getInt("E.Identificador"), resultado.getInt("E.NumeroDocumento")), TipoTareaFincaEntity.build(resultado.getInt("TT.Identificador"), resultado.getString("TT.Tipo")), resultado.getInt("Codigo"), LugarFincaEntity.build(resultado.getInt("LF.ID"), resultado.getString("LF.Ubicacion"), resultado.getString("LF.Nomenclatura"), resultado.getString("LF.Finca")), resultado.getString("TF.Descripcion"));
+                    TareaFincaEntity tareaTMP = TareaFincaEntity.build(resultado.getInt("id"), EmpleadoEntity.Build(resultado.getInt("id"), resultado.getInt("numerodocumento"), resultado.getString("estado")), TipoTareaFincaEntity.build(resultado.getInt("id"), resultado.getString("tipo")), resultado.getInt("codigo"), LugarFincaEntity.build(resultado.getInt("id"), resultado.getString("ubicacion"), resultado.getString("nomenclatura"), resultado.getString("finca")), resultado.getString("descripcion"));
                     listaTareas.add(tareaTMP);
                 }
             }
@@ -81,9 +82,14 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
     }
 
     @Override
+    public List<TareaFincaEntity> consultarEmpleado(TareaFincaEntity entidad) {
+        return List.of();
+    }
+
+    @Override
     public void crear(TareaFincaEntity entidad) {
         final var sentenciaSql = new StringBuilder();
-        sentenciaSql.append("INSERT INTO TareaFinca(EmpleadoAsignado, TipoTrabajo, Codigo, Lugar, Descripcion");
+        sentenciaSql.append("INSERT INTO TareaFinca(empleadoasignado, tipotrabajo, codigo, lugar, descripcion)");
         sentenciaSql.append("VALUES(?, ?, ?, ?, ?)");
 
         try (final PreparedStatement sentenciaPreparada = getConnection().prepareStatement(sentenciaSql.toString())) {

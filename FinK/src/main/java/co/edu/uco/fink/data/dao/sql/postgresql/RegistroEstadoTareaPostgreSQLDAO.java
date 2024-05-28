@@ -50,6 +50,11 @@ public class RegistroEstadoTareaPostgreSQLDAO extends SQLconnection implements R
     }
 
     @Override
+    public List<RegistroEstadoTareaEntity> consultarEmpleado(RegistroEstadoTareaEntity entidad) {
+        return List.of();
+    }
+
+    @Override
     public void crear(RegistroEstadoTareaEntity entidad) {
         final var sentenciaSql = new StringBuilder();
         sentenciaSql.append("INSERT INTO RegistroEstadoTarea(Identificador, Tarea, Estado, FechaActualizacion) ");

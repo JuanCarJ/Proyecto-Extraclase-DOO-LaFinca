@@ -50,4 +50,9 @@ public final class TipoTareaFincaPostgreSQLDAO extends SQLconnection implements 
         }
         return listaTiposTarea;
     }
+
+    @Override
+    public List<TipoTareaFincaEntity> consultarEmpleado(TipoTareaFincaEntity entidad) {
+        return List.of();
+    }
 }

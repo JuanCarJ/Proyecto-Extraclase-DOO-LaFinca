@@ -49,4 +49,9 @@ public final class TipoEstadoPostgreSQLDAO extends SQLconnection implements Tipo
         }
         return listaEstados;
     }
+
+    @Override
+    public List<TipoEstadoEntity> consultarEmpleado(TipoEstadoEntity entidad) {
+        return List.of();
+    }
 }

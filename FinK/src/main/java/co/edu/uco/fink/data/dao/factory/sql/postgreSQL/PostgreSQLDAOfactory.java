@@ -3,6 +3,10 @@ package co.edu.uco.fink.data.dao.factory.sql.postgreSQL;
 import co.edu.uco.fink.crosscutting.helpers.SQLHelper;
 import co.edu.uco.fink.data.dao.*;
 import co.edu.uco.fink.data.dao.factory.DAOfactory;
+import co.edu.uco.fink.data.dao.sql.SQLconnection;
+import co.edu.uco.fink.data.dao.sql.postgresql.EmpleadoPostgreSQLDAO;
+import co.edu.uco.fink.data.dao.sql.postgresql.LugarFincaPostgreSQLDAO;
+import co.edu.uco.fink.data.dao.sql.postgresql.TareaFincaPostgreSQLDAO;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -19,7 +23,7 @@ public final class PostgreSQLDAOfactory extends DAOfactory {
             String url = "jdbc:postgresql://viaduct.proxy.rlwy.net:12615/railway";
             String user = "postgres";
             String password = "NupSsFbtiwYHVbMKuTkunrSzqKwraRIq";
-            connection = DriverManager.getConnection(url,user,password);
+            connection = DriverManager.getConnection(url, user, password);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -47,12 +51,12 @@ public final class PostgreSQLDAOfactory extends DAOfactory {
 
     @Override
     public EmpleadoDAO getEmpleadoDAO() {
-        return null;
+        return new EmpleadoPostgreSQLDAO(connection);
     }
 
     @Override
     public LugarFincaDAO getLugarFincaDAO() {
-        return null;
+        return new LugarFincaPostgreSQLDAO(connection);
     }
 
     @Override
@@ -67,7 +71,7 @@ public final class PostgreSQLDAOfactory extends DAOfactory {
 
     @Override
     public TareaFincaDAO getTareaFincaDAO() {
-        return null;
+        return new TareaFincaPostgreSQLDAO(connection);
     }
 
     @Override

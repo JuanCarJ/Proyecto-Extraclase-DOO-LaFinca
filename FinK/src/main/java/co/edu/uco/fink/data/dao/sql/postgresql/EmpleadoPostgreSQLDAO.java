@@ -24,15 +24,15 @@ public final class EmpleadoPostgreSQLDAO extends SQLconnection implements Emplea
     public final List<EmpleadoEntity> consultar(final EmpleadoEntity entidad) {
         final var listaEmpleados = new ArrayList<EmpleadoEntity>();
         final var sentenciaSql = new StringBuilder();
-        sentenciaSql.append("SELECT Identificador, NumeroDocumento, Clave, Nombre, Telefono, Correo, Finca, Estado ");
-        sentenciaSql.append("FROM Empleado ");
-        sentenciaSql.append("ORDER BY documento ASC");
+        sentenciaSql.append("SELECT id, numerodocumento, nombre, estado ");
+        sentenciaSql.append("FROM empleado ");
+        sentenciaSql.append("ORDER BY numerodocumento ASC");
 
         try (final PreparedStatement sentenciaPreparada = getConnection().prepareStatement(sentenciaSql.toString())){
             try (final ResultSet resultado = sentenciaPreparada.executeQuery()){
                 List<EmpleadoEntity> Empleados = new ArrayList<>();
                 while (resultado.next()){
-                    EmpleadoEntity EmpleadoTMP = EmpleadoEntity.Build(resultado.getInt("Identificador"), resultado.getInt("NumeroDocumento"), resultado.getString("Estado"));
+                    EmpleadoEntity EmpleadoTMP = EmpleadoEntity.Build(resultado.getInt("id"), resultado.getInt("numerodocumento"), resultado.getString("estado"));
                     listaEmpleados.add(EmpleadoTMP);
                 }
             }

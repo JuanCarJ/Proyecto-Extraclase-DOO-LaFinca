@@ -48,4 +48,9 @@ public final class TipoSuministroPostgreSQLDAO extends SQLconnection implements 
         }
         return listaSuministros;
     }
+
+    @Override
+    public List<TipoSuministroEntity> consultarEmpleado(TipoSuministroEntity entidad) {
+        return List.of();
+    }
 }

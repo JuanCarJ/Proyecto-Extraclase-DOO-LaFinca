@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class LugarFincaPostgreSQLDAO extends SQLconnection implements LugarFincaDAO {
-    protected LugarFincaPostgreSQLDAO(final Connection connection) {
+    public LugarFincaPostgreSQLDAO(final Connection connection) {
         super(connection);
     }
 
@@ -24,15 +24,15 @@ public final class LugarFincaPostgreSQLDAO extends SQLconnection implements Luga
     public List<LugarFincaEntity> consultar(LugarFincaEntity entidad) {
         final var listaLugares = new ArrayList<LugarFincaEntity>();
         final var sentenciaSql = new StringBuilder();
-        sentenciaSql.append("SELECT ID, TipoUbicacion, Nomenclatura, Finca ");
-        sentenciaSql.append("FROM TipoSuministro ");
-        sentenciaSql.append("ORDER BY Nombre ASC");
+        sentenciaSql.append("SELECT id, ubicacion, nomenclatura, finca ");
+        sentenciaSql.append("FROM lugarfinca ");
+        sentenciaSql.append("ORDER BY id ASC");
 
         try (final PreparedStatement sentenciaPreparada = getConnection().prepareStatement(sentenciaSql.toString())){
             try (final ResultSet resultado = sentenciaPreparada.executeQuery()){
                 List<LugarFincaEntity> Lugares = new ArrayList<>();
                 while (resultado.next()){
-                    LugarFincaEntity LugarTMP = LugarFincaEntity.build(resultado.getInt("ID"), resultado.getString("TipoUbicacion"), resultado.getString("Nomenclatura"), resultado.getString("Finca"));
+                    LugarFincaEntity LugarTMP = LugarFincaEntity.build(resultado.getInt("id"), resultado.getString("ubicacion"), resultado.getString("nomenclatura"), resultado.getString("finca"));
                     listaLugares.add(LugarTMP);
                 }
             }
@@ -48,5 +48,10 @@ public final class LugarFincaPostgreSQLDAO extends SQLconnection implements Luga
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
         return listaLugares;
+    }
+
+    @Override
+    public List<LugarFincaEntity> consultarEmpleado(LugarFincaEntity entidad) {
+        return List.of();
     }
 }

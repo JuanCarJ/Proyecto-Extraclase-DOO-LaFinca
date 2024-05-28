@@ -15,7 +15,10 @@ public abstract class DAOfactory {
         switch (factory) {
             case AZURE_SQL: {
 
-                return new AzureSQLDAOfactory();
+                var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
+                var mensajeTecnico = "No existe configurada una factoria de datos para una base de datos AZURE_SQL";
+
+                throw new DataFinKException(mensajeTecnico, mensajeUsuario);
             }
             case SQL_SERVER: {
 

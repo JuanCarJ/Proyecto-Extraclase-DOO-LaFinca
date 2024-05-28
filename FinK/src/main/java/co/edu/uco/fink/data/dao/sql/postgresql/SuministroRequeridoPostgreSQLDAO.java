@@ -76,6 +76,11 @@ public final class SuministroRequeridoPostgreSQLDAO extends SQLconnection implem
     }
 
     @Override
+    public List<SuministroRequeridoEntity> consultarEmpleado(SuministroRequeridoEntity entidad) {
+        return List.of();
+    }
+
+    @Override
     public void crear(SuministroRequeridoEntity entidad) {
         final var sentenciaSql = new StringBuilder();
         sentenciaSql.append("INSERT INTO SuministroRequerido(Identificador, Tarea, Suministro, CantidadRequerida");
