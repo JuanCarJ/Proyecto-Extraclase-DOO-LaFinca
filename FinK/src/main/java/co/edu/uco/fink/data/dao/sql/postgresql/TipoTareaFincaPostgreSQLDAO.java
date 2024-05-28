@@ -25,15 +25,14 @@ public final class TipoTareaFincaPostgreSQLDAO extends SQLconnection implements 
     public List<TipoTareaFincaEntity> consultar(TipoTareaFincaEntity entidad) {
         final var listaTiposTarea = new ArrayList<TipoTareaFincaEntity>();
         final var sentenciaSql = new StringBuilder();
-        sentenciaSql.append("SELECT Identificador, Tipo ");
-        sentenciaSql.append("FROM TipoTareaFinca ");
-        sentenciaSql.append("ORDER BY Tipo ASC");
+        sentenciaSql.append("SELECT id, tipo ");
+        sentenciaSql.append("FROM tipotareafinca ");
+        sentenciaSql.append("ORDER BY tipo ASC");
 
         try (final PreparedStatement sentenciaPreparada = getConnection().prepareStatement(sentenciaSql.toString())){
             try (final ResultSet resultado = sentenciaPreparada.executeQuery()){
-                List<TipoTareaFincaEntity> Suministros = new ArrayList<>();
                 while (resultado.next()){
-                    TipoTareaFincaEntity tipoTareaTMP = TipoTareaFincaEntity.build(resultado.getInt("Identificador"), resultado.getString("Tipo"));
+                    TipoTareaFincaEntity tipoTareaTMP = TipoTareaFincaEntity.build(resultado.getInt("id"), resultado.getString("tipo"));
                     listaTiposTarea.add(tipoTareaTMP);
                 }
             }

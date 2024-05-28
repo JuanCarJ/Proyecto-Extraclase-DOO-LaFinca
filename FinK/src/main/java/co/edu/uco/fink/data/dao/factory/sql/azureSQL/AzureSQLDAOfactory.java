@@ -94,4 +94,9 @@ public final class AzureSQLDAOfactory extends DAOfactory {
     public TipoTareaFincaDAO getTipoTareaFincaDAO() {
         return null;
     }
+
+    @Override
+    public FincaDAO getFincaDAO() {
+        return null;
+    }
 }

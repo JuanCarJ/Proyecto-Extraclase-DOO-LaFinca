@@ -18,8 +18,8 @@ public class TipoTareaFincaDTODomainAssembler implements DTODomainAssembler<Tipo
 
     @Override
     public TipoTareaFincaDomain ensamblarDominio(TipoTareaFincaDTO dto) {
-        var tareaFincaDTOTemp = ObjectHelper.getObjectHelper().getDefault(dto, TipoTareaFincaDTO.build());
-        return TipoTareaFincaDomain.crear(tareaFincaDTOTemp.getIdentificador(), tareaFincaDTOTemp.getTipo());
+        var tipotareaFincaDTOTemp = ObjectHelper.getObjectHelper().getDefault(dto, TipoTareaFincaDTO.build());
+        return TipoTareaFincaDomain.crear(tipotareaFincaDTOTemp.getIdentificador(), tipotareaFincaDTOTemp.getTipo());
     }
 
     @Override

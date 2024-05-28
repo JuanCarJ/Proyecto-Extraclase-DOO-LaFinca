@@ -46,13 +46,15 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
     public List<TareaFincaEntity> consultar(TareaFincaEntity entidad) {
         final var listaTareas = new ArrayList<TareaFincaEntity>();
         final var sentenciaSql = new StringBuilder();
-        sentenciaSql.append("SELECT TF.id, TF.codigo, TF.descripcion, E.id, E.numerodocumento, E.estado, TT.id, TT.tipo, LF.id, LF.ubicacion, LF.nomenclatura, LF.finca ");
+        sentenciaSql.append("SELECT TF.id, TF.codigo, TF.descripcion, E.id, E.numerodocumento, E.estado, TT.id, TT.tipo, LF.id, LF.ubicacion, LF.nomenclatura, F.identificador, F.nombre ");
         sentenciaSql.append("FROM tareafinca TF JOIN empleado E ");
         sentenciaSql.append("ON TF.empleadoasignado = E.numerodocumento ");
         sentenciaSql.append("JOIN tipotareafinca TT ");
         sentenciaSql.append("ON TF.tipotrabajo = TT.tipo ");
         sentenciaSql.append("JOIN lugarfinca LF ");
-        sentenciaSql.append("ON TF.lugar = LF.id ");
+        sentenciaSql.append("ON TF.lugar = concat_ws('-', LF.ubicacion, LF.nomenclatura, LF.finca) ");
+        sentenciaSql.append("JOIN finca F ");
+        sentenciaSql.append("ON LF.finca = F.nombre ");
         sentenciaSql.append("WHERE TF.tipotrabajo = ? ");
         sentenciaSql.append("ORDER BY TF.tipotrabajo ASC");
 
@@ -63,7 +65,7 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
             try (final ResultSet resultado = sentenciaPreparada.executeQuery()){
                 List<TareaFincaEntity> Tareas = new ArrayList<>();
                 while (resultado.next()){
-                    TareaFincaEntity tareaTMP = TareaFincaEntity.build(resultado.getInt("id"), EmpleadoEntity.Build(resultado.getInt("id"), resultado.getInt("numerodocumento"), resultado.getString("estado")), TipoTareaFincaEntity.build(resultado.getInt("id"), resultado.getString("tipo")), resultado.getInt("codigo"), LugarFincaEntity.build(resultado.getInt("id"), resultado.getString("ubicacion"), resultado.getString("nomenclatura"), resultado.getString("finca")), resultado.getString("descripcion"));
+                    TareaFincaEntity tareaTMP = TareaFincaEntity.build(resultado.getInt("id"), EmpleadoEntity.Build(resultado.getInt("id"), resultado.getInt("numerodocumento"), resultado.getString("estado"), FincaEntity.Build(resultado.getInt("identificador"), resultado.getString("nombre"))), TipoTareaFincaEntity.build(resultado.getInt("id"), resultado.getString("tipo")), resultado.getInt("codigo"), LugarFincaEntity.build(resultado.getInt("id"), resultado.getString("ubicacion"), resultado.getString("nomenclatura"), FincaEntity.Build(resultado.getInt("identificador"), resultado.getString("nombre"))), resultado.getString("descripcion"));
                     listaTareas.add(tareaTMP);
                 }
             }
@@ -89,15 +91,19 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
     @Override
     public void crear(TareaFincaEntity entidad) {
         final var sentenciaSql = new StringBuilder();
-        sentenciaSql.append("INSERT INTO TareaFinca(empleadoasignado, tipotrabajo, codigo, lugar, descripcion)");
-        sentenciaSql.append("VALUES(?, ?, ?, ?, ?)");
+        sentenciaSql.append("INSERT INTO TareaFinca(empleadoasignado, tipotrabajo, codigo, lugar, descripcion) ");
+        sentenciaSql.append("VALUES(?, ?, ?, (SELECT string_agg(concat_ws('-', ubicacion, nomenclatura, finca), '') ");
+        sentenciaSql.append("                 FROM lugarfinca ");
+        sentenciaSql.append("                 WHERE lugarfinca.ubicacion = ? AND lugarfinca.nomenclatura = ? AND lugarfinca.finca = ?), ?)");
 
         try (final PreparedStatement sentenciaPreparada = getConnection().prepareStatement(sentenciaSql.toString())) {
             sentenciaPreparada.setInt(1, entidad.getEmpleadoAsignado().getDocumento());
             sentenciaPreparada.setString(2, entidad.getTipoTrabajo().getTipo());
             sentenciaPreparada.setInt(3, entidad.getCodigo());
-            sentenciaPreparada.setInt(4, entidad.getLugar().getIdentificador());
-            sentenciaPreparada.setString(5, entidad.getDescripcion());
+            sentenciaPreparada.setString(4, entidad.getLugar().getUbicacion());
+            sentenciaPreparada.setString(5, entidad.getLugar().getNomenclatura());
+            sentenciaPreparada.setString(6, entidad.getLugar().getFinca().getNombre());
+            sentenciaPreparada.setString(7, entidad.getDescripcion());
             sentenciaPreparada.executeUpdate();
         } catch (final SQLException exception) {
             var mensajeUsuario = "No ha sido posible llevar a cabo el registro de la información del nuevo país. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";

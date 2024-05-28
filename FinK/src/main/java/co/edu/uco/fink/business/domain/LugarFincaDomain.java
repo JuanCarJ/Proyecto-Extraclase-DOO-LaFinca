@@ -1,5 +1,6 @@
 package co.edu.uco.fink.business.domain;
 
+import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 
 public class LugarFincaDomain {
@@ -7,16 +8,16 @@ public class LugarFincaDomain {
     private int identificador;
     private String ubicacion;
     private String nomenclatura;
-    private String finca;
+    private FincaDomain finca;
 
     private LugarFincaDomain() {
         setIdentificador(identificador);
         setUbicacion(TextHelper.EMPTY);
         setNomenclatura(TextHelper.EMPTY);
-        setFinca(TextHelper.EMPTY);
+        setFinca(FincaDomain.Crear());
     }
 
-    private LugarFincaDomain(final int identificador, final String ubicacion, final String nomenclatura, final String finca) {
+    private LugarFincaDomain(final int identificador, final String ubicacion, final String nomenclatura, final FincaDomain finca) {
         setIdentificador(identificador);
         setUbicacion(ubicacion);
         setNomenclatura(nomenclatura);
@@ -47,15 +48,15 @@ public class LugarFincaDomain {
         this.nomenclatura = TextHelper.applyTrim(nomenclatura);
     }
 
-    public final String getFinca() {
+    public final FincaDomain getFinca() {
         return finca;
     }
 
-    private final void setFinca(final String finca) {
-        this.finca = TextHelper.applyTrim(finca);
+    private final void setFinca(final FincaDomain finca) {
+        this.finca = ObjectHelper.getObjectHelper().getDefault(finca, FincaDomain.Crear());
     }
 
-    public static final LugarFincaDomain crear(final int identificador, final String ubicacion, final String nomenclatura, final String finca){
+    public static final LugarFincaDomain crear(final int identificador, final String ubicacion, final String nomenclatura, final FincaDomain finca){
         return new LugarFincaDomain(identificador, ubicacion, nomenclatura, finca);
     }
 

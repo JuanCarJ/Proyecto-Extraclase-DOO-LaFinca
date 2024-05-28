@@ -4,9 +4,7 @@ import co.edu.uco.fink.crosscutting.helpers.SQLHelper;
 import co.edu.uco.fink.data.dao.*;
 import co.edu.uco.fink.data.dao.factory.DAOfactory;
 import co.edu.uco.fink.data.dao.sql.SQLconnection;
-import co.edu.uco.fink.data.dao.sql.postgresql.EmpleadoPostgreSQLDAO;
-import co.edu.uco.fink.data.dao.sql.postgresql.LugarFincaPostgreSQLDAO;
-import co.edu.uco.fink.data.dao.sql.postgresql.TareaFincaPostgreSQLDAO;
+import co.edu.uco.fink.data.dao.sql.postgresql.*;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -86,6 +84,11 @@ public final class PostgreSQLDAOfactory extends DAOfactory {
 
     @Override
     public TipoTareaFincaDAO getTipoTareaFincaDAO() {
-        return null;
+        return new TipoTareaFincaPostgreSQLDAO(connection);
+    }
+
+    @Override
+    public FincaDAO getFincaDAO() {
+        return new FincaPostgreSQLDAO(connection);
     }
 }

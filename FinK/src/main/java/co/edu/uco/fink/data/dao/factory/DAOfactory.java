@@ -74,4 +74,6 @@ public abstract class DAOfactory {
     public abstract TipoSuministroDAO getTipoSuministroDAO();
 
     public abstract TipoTareaFincaDAO getTipoTareaFincaDAO();
+
+    public abstract FincaDAO getFincaDAO();
 }

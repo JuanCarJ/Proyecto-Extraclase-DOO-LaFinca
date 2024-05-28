@@ -1,6 +1,7 @@
 package co.edu.uco.fink.business.domain;
 
 import co.edu.uco.fink.crosscutting.helpers.NumericHelper;
+import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 
 public class EmpleadoDomain {
@@ -8,8 +9,9 @@ public class EmpleadoDomain {
     private int identificador;
     private int documento;
     private String estado;
+    private FincaDomain finca;
 
-    public EmpleadoDomain(final int identificador,final int documento, final String estado) {
+    public EmpleadoDomain(final int identificador,final int documento, final String estado, final FincaDomain finca) {
         setIdentificador(identificador);
         setDocumento(documento);
         setEstado(estado);
@@ -35,8 +37,8 @@ public class EmpleadoDomain {
         this.documento = documento;
     }    
 
-    public static final EmpleadoDomain crear(final int identificador,final int documento, final String estado){
-        return new EmpleadoDomain(identificador,documento, estado);
+    public static final EmpleadoDomain crear(final int identificador,final int documento, final String estado, final FincaDomain finca){
+        return new EmpleadoDomain(identificador,documento, estado, finca);
     }
 
     public static final EmpleadoDomain crear(){
@@ -51,6 +53,12 @@ public class EmpleadoDomain {
         return estado;
     }
 
+    private void setFinca(final FincaDomain finca) {
+        this.finca = ObjectHelper.getObjectHelper().getDefault(finca, FincaDomain.Crear());
+    }
 
+    public final FincaDomain getFinca() {
+        return finca;
+    }
 
 }

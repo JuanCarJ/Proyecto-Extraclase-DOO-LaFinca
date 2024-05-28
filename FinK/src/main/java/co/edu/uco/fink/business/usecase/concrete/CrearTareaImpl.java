@@ -9,6 +9,7 @@ import co.edu.uco.fink.data.dao.factory.DAOfactory;
 import co.edu.uco.fink.entity.EmpleadoEntity;
 import co.edu.uco.fink.entity.LugarFincaEntity;
 import co.edu.uco.fink.entity.TareaFincaEntity;
+import co.edu.uco.fink.entity.TipoTareaFincaEntity;
 
 import java.util.List;
 import java.util.Objects;
@@ -25,7 +26,7 @@ public class CrearTareaImpl implements CrearTarea {
         int codigo = 1;
 
         if (!resultado.isEmpty()) {
-            for (TareaFincaEntity entidad : resultado) {
+            for (TareaFincaEntity ignored : resultado) {
                 codigo += 1;
             }
         }
@@ -33,15 +34,51 @@ public class CrearTareaImpl implements CrearTarea {
         return codigo;
     }
 
+    public final String validarEmpleado(TareaFincaEntity tarea){
+        List<EmpleadoEntity> resultado = factory.getEmpleadoDAO().consultar(tarea.getEmpleadoAsignado());
+
+        String finca = "";
+
+        for (EmpleadoEntity empleado : resultado) {
+            if (tarea.getEmpleadoAsignado().getDocumento() == empleado.getDocumento()) {
+                finca = empleado.getFinca().getNombre();
+            }
+        }
+
+        return finca;
+    }
+
     public final void validate(TareaFincaEntity tarea){
-        if (tarea.getEmpleadoAsignado() == null){
+        List<EmpleadoEntity> resultado = factory.getEmpleadoDAO().consultar(tarea.getEmpleadoAsignado());
+
+        if (tarea.getEmpleadoAsignado().getDocumento() == 0){
             String mensajeUsuario = "La tarea que se intenta registrar no tiene empleado";
             String mensajeTecnico = "Se ha intentado crear una tarea sin un empleado asignado";
 
             throw new FinKException(mensajeTecnico, mensajeUsuario, Lugar.BUSINESS);
+        } else {
+
+            boolean existe = false;
+
+            for (EmpleadoEntity empleado : resultado) {
+                if (tarea.getEmpleadoAsignado().getDocumento() == empleado.getDocumento()) {
+                    if (Objects.equals(tarea.getLugar().getFinca().getNombre(), empleado.getFinca().getNombre())) {
+                        existe = true;
+                        break;
+                    }
+                }
+            }
+
+            if (!existe){
+                String mensajeUsuario = "El empleado que se está asignando no existe en la finca actual";
+                String mensajeTecnico = "Se ha intentado asignar un empleado que no existe dentro de la finca actual";
+
+                throw new FinKException(mensajeTecnico, mensajeUsuario, Lugar.BUSINESS);
+            }
+
         }
 
-        List<EmpleadoEntity> resultado = factory.getEmpleadoDAO().consultar(tarea.getEmpleadoAsignado());
+
         for (EmpleadoEntity entidad : resultado) {
             if (entidad.getDocumento() == tarea.getEmpleadoAsignado().getDocumento()){
                 if (Objects.equals(entidad.getEstado(), "inactivo")){
@@ -52,16 +89,40 @@ public class CrearTareaImpl implements CrearTarea {
                 }
             }
         }
+
+        if (tarea.getTipoTrabajo().getTipo() != null){
+
+            boolean existe = false;
+
+            List<TipoTareaFincaEntity> result = factory.getTipoTareaFincaDAO().consultar(tarea.getTipoTrabajo());
+
+            for (TipoTareaFincaEntity entidad : result){
+                if (Objects.equals(entidad.getTipo(), tarea.getTipoTrabajo().getTipo())){
+                    existe = true;
+                }
+            }
+
+            if (!existe){
+                String mensajeUsuario = "El tipo de tarea que se intentó ingresar no es valido";
+                String mensajeTecnico = "Se ha intentado asignar un tipo de tarea que no es valido";
+
+                throw new FinKException(mensajeTecnico, mensajeUsuario, Lugar.BUSINESS);
+            }
+        }
+
+
     }
 
     public final int validarLugar(TareaFincaEntity tarea){
+
+
         List<LugarFincaEntity> resultado = factory.getLugarFincaDAO().consultar(tarea.getLugar());
 
         int id = 0;
 
         if (!resultado.isEmpty()) {
             for (LugarFincaEntity entidad : resultado) {
-                if (Objects.equals(entidad.getFinca(), tarea.getLugar().getFinca())){
+                if (Objects.equals(entidad.getFinca().getNombre(), tarea.getLugar().getFinca().getNombre())){
                     if (Objects.equals(entidad.getUbicacion(), tarea.getLugar().getUbicacion())){
                         if (Objects.equals(entidad.getNomenclatura(), tarea.getLugar().getNomenclatura())){
                             id = entidad.getIdentificador();
@@ -69,30 +130,38 @@ public class CrearTareaImpl implements CrearTarea {
                     }
                 }
             }
-        } else if (id == 0) {
-            String mensajeUsuario = "El lugar ingresado no existe";
-            String mensajeTecnico = "Se ha intentado asignar un lugar que no existe";
+        }
+
+
+        if (id == 0){
+            String mensajeUsuario = "El lugar ingresado no existe en la finca";
+            String mensajeTecnico = "Se ha intentado asignar un lugar que no existe dentro de la finca actual";
 
             throw new FinKException(mensajeTecnico, mensajeUsuario, Lugar.BUSINESS);
         }
-
 
         return id;
     }
 
     public final void ejecutar(TareaFincaDomain tarea) {
+        try{
+            TareaFincaEntity tareaEntity = TareaFincaEntityDomainAssembler.obtenerInstancia().ensamblarEntidad(tarea);
 
-        TareaFincaEntity tareaEntity = TareaFincaEntityDomainAssembler.obtenerInstancia().ensamblarEntidad(tarea);
+            var finca = validarEmpleado(tareaEntity);
+            tareaEntity.getEmpleadoAsignado().getFinca().setNombre(finca);
 
-        var newcodigo = validarTipoCodigo(tareaEntity);
-        tareaEntity.setCodigo(newcodigo);
+            var newcodigo = validarTipoCodigo(tareaEntity);
+            tareaEntity.setCodigo(newcodigo);
 
-        var id = validarLugar(tareaEntity);
-        tareaEntity.getLugar().setIdentificador(id);
+            var id = validarLugar(tareaEntity);
+            tareaEntity.getLugar().setIdentificador(id);
 
-        validate(tareaEntity);
+            validate(tareaEntity);
 
-        factory.getTareaFincaDAO().crear(tareaEntity);
+            factory.getTareaFincaDAO().crear(tareaEntity);
+        } catch (FinKException e){
+            throw e;
+        }
     }
 }
 
