@@ -7,15 +7,15 @@ public class LugarFincaDTO {
     private int identificador;
     private String ubicacion;
     private String nomenclatura;
-    private String finca;
+    private FincaDTO finca;
 
     public LugarFincaDTO() {
         setUbicacion(TextHelper.EMPTY);
         setNomenclatura(TextHelper.EMPTY);
-        setFinca(TextHelper.EMPTY);
+        setFinca(FincaDTO.build());
     }
 
-    public LugarFincaDTO(final int identificador, final String ubicacion, final String nomenclatura, final String finca) {
+    public LugarFincaDTO(final int identificador, final String ubicacion, final String nomenclatura, final FincaDTO finca) {
         setIdentificador(identificador);
         setUbicacion(ubicacion);
         setNomenclatura(nomenclatura);
@@ -53,12 +53,12 @@ public class LugarFincaDTO {
         return this;
     }
 
-    public final String getFinca() {
+    public final FincaDTO getFinca() {
         return finca;
     }
 
-    public final LugarFincaDTO setFinca(final String finca) {
-        this.finca = TextHelper.applyTrim(finca);
+    public final LugarFincaDTO setFinca(final FincaDTO finca) {
+        this.finca = ObjectHelper.getObjectHelper().getDefault(finca, FincaDTO.build());
         return this;
     }
 }

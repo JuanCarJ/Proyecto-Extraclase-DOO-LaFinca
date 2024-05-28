@@ -12,15 +12,19 @@ public class EmpleadoDTO {
 
     private String estado;
 
+    private FincaDTO finca;
+
     public EmpleadoDTO(){
         setDocumento(NumericHelper.ZERO);
         setEstado(TextHelper.EMPTY);
+        setFinca(FincaDTO.build());
     }
 
-    public EmpleadoDTO(final int identificador, final int documento, final String estado) {
+    public EmpleadoDTO(final int identificador, final int documento, final String estado, final FincaDTO finca) {
         setIdentificador(identificador);
         setDocumento(documento);
-        setEstado(TextHelper.EMPTY);
+        setEstado(estado);
+        setFinca(finca);
     }
 
     public static final EmpleadoDTO build(){
@@ -51,6 +55,15 @@ public class EmpleadoDTO {
 
     public final EmpleadoDTO setEstado(final String estado) {
         this.estado = TextHelper.applyTrim(estado);
+        return this;
+    }
+
+    public final FincaDTO getFinca() {
+        return finca;
+    }
+
+    public final EmpleadoDTO setFinca(final FincaDTO finca) {
+        this.finca = ObjectHelper.getObjectHelper().getDefault(finca, FincaDTO.build());
         return this;
     }
 }

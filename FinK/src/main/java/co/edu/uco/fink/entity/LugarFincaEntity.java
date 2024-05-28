@@ -8,16 +8,16 @@ public class LugarFincaEntity {
     private int identificador;
     private String ubicacion;
     private String nomenclatura;
-    private String finca;
+    private FincaEntity finca;
 
     private LugarFincaEntity(final int identificador) {
         setIdentificador(identificador);
         setUbicacion(TextHelper.EMPTY);
         setNomenclatura(TextHelper.EMPTY);
-        setFinca(TextHelper.EMPTY);
+        setFinca(FincaEntity.build());
     }
 
-    private LugarFincaEntity(final int identificador, final String ubicacion, final String nomenclatura, final String finca) {
+    private LugarFincaEntity(final int identificador, final String ubicacion, final String nomenclatura, final FincaEntity finca) {
         setIdentificador(identificador);
         setUbicacion(ubicacion);
         setNomenclatura(nomenclatura);
@@ -28,7 +28,7 @@ public class LugarFincaEntity {
         return new LugarFincaEntity(identificador);
     }
 
-    public static final LugarFincaEntity build(final int identificador, final String ubicacion, final String nomenclatura, final String finca) {
+    public static final LugarFincaEntity build(final int identificador, final String ubicacion, final String nomenclatura, final FincaEntity finca) {
         return new LugarFincaEntity(identificador, ubicacion, nomenclatura, finca);
     }
 
@@ -58,11 +58,11 @@ public class LugarFincaEntity {
         this.nomenclatura = nomenclatura;
     }
 
-    public final String getFinca() {
+    public final FincaEntity getFinca() {
         return finca;
     }
 
-    public final void setFinca(final String finca) {
-        this.finca = TextHelper.applyTrim(finca);
+    public final void setFinca(final FincaEntity finca) {
+        this.finca = ObjectHelper.getObjectHelper().getDefault(finca, FincaEntity.build());
     }
 }
