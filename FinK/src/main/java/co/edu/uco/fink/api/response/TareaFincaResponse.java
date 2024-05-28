@@ -10,5 +10,4 @@ public class TareaFincaResponse extends Response<TareaFincaDTO>{
         setMensajes(new ArrayList<>());
         setDatos(new ArrayList<>());
     }
-
 }

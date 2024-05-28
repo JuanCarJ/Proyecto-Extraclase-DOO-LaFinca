@@ -22,13 +22,13 @@ public class EmpleadoEntityDomainAssembler implements EntityDomainAssembler<Empl
     @Override
     public EmpleadoDomain ensamblarDominio(EmpleadoEntity entity) {
         var empleadoEntityTemp = ObjectHelper.getObjectHelper().getDefault(entity, EmpleadoEntity.Build(0));
-        return EmpleadoDomain.crear(empleadoEntityTemp.getIdentificador(), empleadoEntityTemp.getDocumento());
+        return EmpleadoDomain.crear(empleadoEntityTemp.getIdentificador(), empleadoEntityTemp.getDocumento(), empleadoEntityTemp.getEstado());
     }
 
     @Override
     public EmpleadoEntity ensamblarEntidad(EmpleadoDomain dominio) {
         var empleadoDomainTemp = ObjectHelper.getObjectHelper().getDefault(dominio,EmpleadoDomain.crear());
-        return EmpleadoEntity.Build(empleadoDomainTemp.getIdentificador(), empleadoDomainTemp.getDocumento());
+        return EmpleadoEntity.Build(empleadoDomainTemp.getIdentificador(), empleadoDomainTemp.getDocumento(), empleadoDomainTemp.getEstado());
     }
 
     @Override

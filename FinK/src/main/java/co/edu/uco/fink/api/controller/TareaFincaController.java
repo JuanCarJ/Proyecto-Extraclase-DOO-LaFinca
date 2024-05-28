@@ -1,6 +1,5 @@
 package co.edu.uco.fink.api.controller;
 
-
 import co.edu.uco.fink.api.response.TareaFincaResponse;
 import co.edu.uco.fink.business.fachade.concrete.CrearTareaFachadeImpl;
 import co.edu.uco.fink.crosscutting.exception.FinKException;
@@ -14,8 +13,9 @@ import org.springframework.web.bind.annotation.*;
 public final class TareaFincaController {
 
     @GetMapping("/dummy")
-    public TareaFincaDTO getDummy(){ return TareaFincaDTO.Build().setCodigo(1); }
+    public TareaFincaDTO getDummy(){ return TareaFincaDTO.Build(); }
 
+    @PostMapping
     public ResponseEntity<TareaFincaResponse> crear(@RequestBody TareaFincaDTO tarea)
     {
         var httpStatusCode = HttpStatus.ACCEPTED;
