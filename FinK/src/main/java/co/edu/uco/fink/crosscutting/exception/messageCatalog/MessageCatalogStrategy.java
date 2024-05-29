@@ -12,6 +12,10 @@ public class MessageCatalogStrategy {
     private static final MessageCatalog base = new MessageCatalogBase();
     private static final MessageCatalog externalService = new MessageCatalogExternalService();
 
+    static {
+        inicializar();
+    }
+
     private MessageCatalogStrategy() {
         super();
     }

@@ -1,0 +1,7 @@
+
+k
+java:S1845!"PRename method "build" to prevent any misunderstanding/clash with method "Build".(ªÀÓ÷ùÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û’¥™ùÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÑà¿ýÿÿÿÿ
+[
+java:S1128"@Remove this unused import 'co.edu.uco.fink.dto.fincas.FincaDTO'.(äéß“úÿÿÿÿ

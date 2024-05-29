@@ -21,7 +21,11 @@ public class MessageCatalogExternalService implements MessageCatalog {
                 new Mensaje(CodigoMensaje.M000023, "Se ha presentado un error implementando un insert del pais \"${1}\" en la tabla de \"pais\" de la base de datos Azure SQL..."));
         mensajes.put(CodigoMensaje.M000024.getIdentificador(),
                 new Mensaje(CodigoMensaje.M000024, "Se ha presentado un error tratando de realizar un insert del pais \"${1}\" en la tabla de \"pais\" de la base de datos Azure SQL..."));
+        mensajes.put(CodigoMensaje.M000025.getIdentificador(),
+                new Mensaje(CodigoMensaje.M000025, "El empleado que se está asignando está inactivo"));
     }
+
+
 
     @Override
     public String obtenerContenidoMensaje(final CodigoMensaje codigo, final String... parametros) {

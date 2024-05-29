@@ -1,0 +1,24 @@
+
+L
+java:S1066D"/Merge this if statement with the enclosing one.(Şü½8ÎéÅ©ü1
+Q
+java:S1066W"/Merge this if statement with the enclosing one.(ÚÈôïùÿÿÿÿ8ÏéÅ©ü1
+M
+java:S1066"/Merge this if statement with the enclosing one.(Ö¬•Ä8ÏéÅ©ü1
+R
+java:S1066‚"/Merge this if statement with the enclosing one.(À°œ¾şÿÿÿÿ8ÏéÅ©ü1
+H
+java:S1481 ",Remove this unused "ignored" local variable.(‹¢Ç\8µëÅ©ü1
+o
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ŸëÑò8ºëÅ©ü1
+o
+java:S3776w"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(›î8¿ëÅ©ü1
+u
+java:S2737¦"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8ÃëÅ©ü1
+‹
+java:S1128"iRemove this unused import 'co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy'.(ô´÷÷ùÿÿÿÿ8ÇëÅ©ü1
+
+java:S1128	"eRemove this unused import 'co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje'.(ü®üp8ÇëÅ©ü1
+n
+java:S1128
+"LRemove this unused import 'co.edu.uco.fink.crosscutting.helpers.TextHelper'.(»¤œñúÿÿÿÿ8ÇëÅ©ü1
