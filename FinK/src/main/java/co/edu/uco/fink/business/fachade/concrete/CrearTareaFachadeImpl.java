@@ -5,6 +5,9 @@ import co.edu.uco.fink.business.usecase.CrearTarea;
 import co.edu.uco.fink.business.usecase.concrete.CrearTareaImpl;
 import co.edu.uco.fink.crosscutting.exception.FinKException;
 import co.edu.uco.fink.crosscutting.exception.custom.BusinessFinkException;
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy;
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje;
+import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 import co.edu.uco.fink.data.dao.factory.DAOfactory;
 import co.edu.uco.fink.data.dao.factory.enums.Factory;
 import co.edu.uco.fink.dto.trabajos.TareaFincaDTO;
@@ -30,8 +33,8 @@ public class CrearTareaFachadeImpl {
         } catch (Exception exception) {
             factory.cancelarTransaccion();
 
-            var mensajeUsuario = "Se ha presentado un problema tratando de registrar la información de la nueva tarea";
-            var mensajeTecnico = "Se ha presentado un problema INESPERADO tratando de registrar la nueva tarea en el método ejecutar de la clase CrearTareaFachadaImpl";
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000043));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000044));
 
             throw new BusinessFinkException(mensajeTecnico, mensajeUsuario);
         } finally {

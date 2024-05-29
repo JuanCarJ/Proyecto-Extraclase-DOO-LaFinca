@@ -34,7 +34,20 @@ public enum CodigoMensaje {
     M000028(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000028", true),
     M000029(TipoMensaje.USUARIO, CategoriaMensaje.ERROR, "000029", true),
     M000030(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000030", true),
-    M000031(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000031", true);
+    M000031(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000031", true),
+    M000032(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000032", false),
+    M000033(TipoMensaje.USUARIO, CategoriaMensaje.ERROR, "000033", false),
+    M000034(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000034", false),
+    M000035(TipoMensaje.USUARIO, CategoriaMensaje.ERROR, "000035", false),
+    M000036(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000036", false),
+    M000037(TipoMensaje.USUARIO, CategoriaMensaje.ERROR, "000037", false),
+    M000038(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000038", false),
+    M000039(TipoMensaje.USUARIO, CategoriaMensaje.ERROR, "000039", false),
+    M000040(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000040", false),
+    M000041(TipoMensaje.USUARIO, CategoriaMensaje.ERROR, "000041", false),
+    M000042(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000042", false),
+    M000043(TipoMensaje.USUARIO, CategoriaMensaje.ERROR, "000043", false),
+    M000044(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "000044", false);
 
     private TipoMensaje tipo;
     private CategoriaMensaje categoria;

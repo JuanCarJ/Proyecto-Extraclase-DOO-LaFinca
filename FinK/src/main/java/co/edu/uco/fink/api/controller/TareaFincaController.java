@@ -38,7 +38,7 @@ public final class TareaFincaController {
         }
         catch (Exception exception){
             httpStatusCode = HttpStatus.INTERNAL_SERVER_ERROR;
-            var mensajeUsuario = "Se ha presentado un problema registrando la información de la nueva tarea.";
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000032));
             tareaResponse.getMensajes().add(mensajeUsuario);
             exception.printStackTrace();
         }

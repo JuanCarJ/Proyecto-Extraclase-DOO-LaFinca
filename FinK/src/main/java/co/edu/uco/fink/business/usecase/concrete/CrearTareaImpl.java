@@ -55,8 +55,8 @@ public class CrearTareaImpl implements CrearTarea {
         List<EmpleadoEntity> resultado = factory.getEmpleadoDAO().consultar(tarea.getEmpleadoAsignado());
 
         if (tarea.getEmpleadoAsignado().getDocumento() == 0){
-            String mensajeUsuario = "La tarea que se intenta registrar no tiene empleado";
-            String mensajeTecnico = "Se ha intentado crear una tarea sin un empleado asignado";
+            String mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000033));
+            String mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000034));
 
             throw new FinKException(mensajeTecnico, mensajeUsuario, Lugar.BUSINESS);
         } else {
@@ -73,8 +73,8 @@ public class CrearTareaImpl implements CrearTarea {
             }
 
             if (!existe){
-                String mensajeUsuario = "El empleado que se está asignando no existe en la finca actual";
-                String mensajeTecnico = "Se ha intentado asignar un empleado que no existe dentro de la finca actual";
+                String mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000035));
+                String mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000036));
 
                 throw new FinKException(mensajeTecnico, mensajeUsuario, Lugar.BUSINESS);
             }
@@ -85,8 +85,8 @@ public class CrearTareaImpl implements CrearTarea {
         for (EmpleadoEntity entidad : resultado) {
             if (entidad.getDocumento() == tarea.getEmpleadoAsignado().getDocumento()){
                 if (Objects.equals(entidad.getEstado(), "inactivo")){
-                    String mensajeUsuario = "El empleado que se está asignando está inactivo";
-                    String mensajeTecnico = "Se ha intentado asignar un empleado que no está activo";
+                    String mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000037));
+                    String mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000038));
 
                     throw new FinKException(mensajeTecnico, mensajeUsuario, Lugar.BUSINESS);
                 }
@@ -106,8 +106,8 @@ public class CrearTareaImpl implements CrearTarea {
             }
 
             if (!existe){
-                String mensajeUsuario = "El tipo de tarea que se intentó ingresar no es valido";
-                String mensajeTecnico = "Se ha intentado asignar un tipo de tarea que no es valido";
+                String mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000039));
+                String mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000040));
 
                 throw new FinKException(mensajeTecnico, mensajeUsuario, Lugar.BUSINESS);
             }
@@ -137,8 +137,8 @@ public class CrearTareaImpl implements CrearTarea {
 
 
         if (id == 0){
-            String mensajeUsuario = "El lugar ingresado no existe en la finca";
-            String mensajeTecnico = "Se ha intentado asignar un lugar que no existe dentro de la finca actual";
+            String mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000041));
+            String mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000042));
 
             throw new FinKException(mensajeTecnico, mensajeUsuario, Lugar.BUSINESS);
         }
