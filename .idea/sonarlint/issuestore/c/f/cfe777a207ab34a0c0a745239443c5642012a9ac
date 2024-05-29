@@ -1,24 +1,24 @@
 
-L
-java:S1066D"/Merge this if statement with the enclosing one.(Şü½8ø•Ì«ü1
-Q
-java:S1066W"/Merge this if statement with the enclosing one.(ÚÈôïùÿÿÿÿ8ù•Ì«ü1
-M
-java:S1066"/Merge this if statement with the enclosing one.(Ö¬•Ä8ù•Ì«ü1
-R
-java:S1066‚"/Merge this if statement with the enclosing one.(À°œ¾şÿÿÿÿ8ù•Ì«ü1
-H
-java:S1481 ",Remove this unused "ignored" local variable.(‹¢Ç\8ª˜Ì«ü1
-o
-java:S37766"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ŸëÑò8®˜Ì«ü1
-o
-java:S3776w"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(›î8´˜Ì«ü1
-u
-java:S2737¦"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8»˜Ì«ü1
-‹
-java:S1128"iRemove this unused import 'co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy'.(ô´÷÷ùÿÿÿÿ8À˜Ì«ü1
-
-java:S1128	"eRemove this unused import 'co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje'.(ü®üp8À˜Ì«ü1
+r
+java:S1066D"/Merge this if statement with the enclosing one.(Şü½8ø•Ì«ü1J$796708cf-6183-4d1e-9e26-f8a45dd66254
+w
+java:S1066W"/Merge this if statement with the enclosing one.(ÚÈôïùÿÿÿÿ8ù•Ì«ü1J$c4938079-0d21-4ab5-bc01-caa53289b2e9
+s
+java:S1066"/Merge this if statement with the enclosing one.(Ö¬•Ä8ù•Ì«ü1J$fd2de8ea-7270-4c0f-b821-5e1210b095e9
+x
+java:S1066‚"/Merge this if statement with the enclosing one.(À°œ¾şÿÿÿÿ8ù•Ì«ü1J$b81935bc-1033-4f00-a602-0bd8e21bf77f
 n
+java:S1481 ",Remove this unused "ignored" local variable.(‹¢Ç\8ª˜Ì«ü1J$bdfde688-930b-4ed0-a6a6-ef306e7709cb
+•
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ŸëÑò8®˜Ì«ü1J$5185c625-f425-4134-b4cd-2960e4e0f5ec
+•
+java:S3776w"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(›î8´˜Ì«ü1J$4daf588a-34a7-4577-928d-1ca37fe18112
+›
+java:S2737¦"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8»˜Ì«ü1J$12f84530-1e12-4c31-975f-729e5ebb62d5
+±
+java:S1128"iRemove this unused import 'co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy'.(ô´÷÷ùÿÿÿÿ8À˜Ì«ü1J$9304cce7-5f18-43a5-8c00-28bf9c022491
+§
+java:S1128	"eRemove this unused import 'co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje'.(ü®üp8À˜Ì«ü1J$f58d9cf0-ce29-4e8b-8c73-826ab3fb2dcc
+”
 java:S1128
-"LRemove this unused import 'co.edu.uco.fink.crosscutting.helpers.TextHelper'.(»¤œñúÿÿÿÿ8À˜Ì«ü1
+"LRemove this unused import 'co.edu.uco.fink.crosscutting.helpers.TextHelper'.(»¤œñúÿÿÿÿ8À˜Ì«ü1J$ba7f3d3b-7ad5-4e62-bfcf-0d51bab4c584

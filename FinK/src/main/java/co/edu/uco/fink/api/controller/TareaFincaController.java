@@ -3,6 +3,9 @@ package co.edu.uco.fink.api.controller;
 import co.edu.uco.fink.api.response.TareaFincaResponse;
 import co.edu.uco.fink.business.fachade.concrete.CrearTareaFachadeImpl;
 import co.edu.uco.fink.crosscutting.exception.FinKException;
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy;
+import co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje;
+import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 import co.edu.uco.fink.dto.trabajos.TareaFincaDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -25,7 +28,7 @@ public final class TareaFincaController {
         try{
             var fachade = new CrearTareaFachadeImpl();
             fachade.ejecutar(tarea);
-            tareaResponse.getMensajes().add("Tarea Creada con exito");
+            tareaResponse.getMensajes().add(TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000026)));
         }
         catch (FinKException exception){
 
