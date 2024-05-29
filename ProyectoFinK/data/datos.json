@@ -1,21 +1,6 @@
 {
-    "fincas": {
-        "Finca Vaquita Feliz": {
-            "ubicaciones": {
-                "Pesebrera": ["A", "B", "C"],
-                "Gallinero": ["A", "B"],
-                "Pastizal": ["A", "B", "C", "D"],
-                "Pocilga": ["A", "B"]
-            }
-        },
-        "Finca El Granero": {
-            "ubicaciones": {
-                "Granero": ["A", "B"],
-                "Huerta": ["A", "B", "C"],
-                "Vinedo": ["A", "B"],
-                "Establo": ["A", "B", "C", "D"]
-            }
-        }
-    }
+    "fincas": [
+        "Finca El Granero",
+        "Finca Vaquita Feliz"
+    ]
 }
-

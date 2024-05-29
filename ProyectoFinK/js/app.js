@@ -6,7 +6,7 @@ function createVueApp(dataFunction) {
         methods: {
             enviarFormulario() {
                 if (this.validarFormulario()) {
-                    const url = 'http://localhost:8080/api/v1/tareaFinca'; 
+                    const url = 'http://localhost:8080/api/v1/tareaFinca';
                     const data = {
                         empleadoAsignado: {
                             documento: parseInt(this.tarea.idEmpleado.replace(/\./g, ''))
@@ -15,7 +15,9 @@ function createVueApp(dataFunction) {
                             tipo: this.tarea.tipoTrabajoFinca
                         },
                         lugar: {
-                            finca: this.tarea.finca,
+                            finca: {
+                                nombre: this.tarea.finca
+                            },
                             ubicacion: this.tarea.ubicacion,
                             nomenclatura: this.tarea.nomenclatura
                         },
@@ -27,22 +29,24 @@ function createVueApp(dataFunction) {
                         headers: {
                             'Content-Type': 'application/json'
                         },
-                        body: JSON.stringify(data) 
+                        body: JSON.stringify(data)
                     })
                     .then(response => {
                         if (!response.ok) {
-                            throw new Error('Error en la solicitud: ' + response.statusText);
+                            return response.json().then(errorData => {
+                                throw new Error(errorData.mensajes.join(', '));
+                            });
                         }
                         return response.json();
                     })
                     .then(data => {
                         console.log('Éxito:', data);
                         alert('Tarea creada con éxito.');
-                        this.restablecerFormulario(); 
+                        this.restablecerFormulario();
                     })
                     .catch(error => {
                         console.error('Error:', error);
-                        alert('Hubo un error al crear la tarea.');
+                        alert(`Hubo un error al crear la tarea, con el siguiente detalle: ${error.message}`);
                     });
                 }
             },
@@ -52,13 +56,6 @@ function createVueApp(dataFunction) {
                     return false;
                 }
                 return true;
-            },
-            cambiarTipoTarea() {
-                this.tarea.tipoTrabajoFinca = '';
-                this.tarea.finca = '';
-                this.tarea.ubicacion = '';
-                this.tarea.nomenclatura = '';
-                this.tarea.descripcion = '';
             },
             formatearCedula() {
                 let cedula = this.tarea.idEmpleado.replace(/\D/g, '');
@@ -72,17 +69,15 @@ function createVueApp(dataFunction) {
                         this.fincas = data.fincas;
                     })
                     .catch(error => {
-                        console.error('Hubo un error al cargar los datos de los lugares finca', error);
+                        console.error('Hubo un error al cargar los datos:', error);
                     });
             },
-            actualizarUbicaciones() {
-                this.ubicaciones = this.fincas[this.tarea.finca].ubicaciones || {};
-                this.tarea.ubicacion = '';
-                this.tarea.nomenclatura = '';
+            validarUbicacion() {
+                this.tarea.ubicacion = this.tarea.ubicacion.replace(/[^a-zA-Z]/g, '');
+                this.tarea.ubicacion = this.tarea.ubicacion.charAt(0).toUpperCase() + this.tarea.ubicacion.slice(1).toLowerCase();
             },
-            actualizarNomenclaturas() {
-                this.nomenclaturas = this.ubicaciones[this.tarea.ubicacion] || [];
-                this.tarea.nomenclatura = '';
+            validarNomenclatura() {
+                this.tarea.nomenclatura = this.tarea.nomenclatura.replace(/[^a-zA-Z]/g, '').toUpperCase();
             },
             restablecerFormulario() {
                 this.tarea.idEmpleado = '';
@@ -108,9 +103,7 @@ const appData = () => ({
         nomenclatura: '',
         descripcion: ''
     },
-    fincas: {},
-    ubicaciones: {},
-    nomenclaturas: []
+    fincas: []
 });
 
 const app = createVueApp(appData);

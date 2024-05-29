@@ -50,6 +50,23 @@ li.menu-item:hover > ul.submenu {
     display: block;
 }
 
+#finca-select {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#finca-select label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+#finca-select select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
 input[type="text"], select, textarea, button {
     padding: 8px;
     margin: 8px 0;
@@ -82,6 +99,10 @@ button:hover {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#app form > div {
+    margin-bottom: 15px;
 }
 
 footer {
