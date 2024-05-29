@@ -9,7 +9,7 @@ function createVueApp(dataFunction) {
                     const url = 'http://localhost:8080/api/v1/tareaFinca';
                     const data = {
                         empleadoAsignado: {
-                            documento: parseInt(this.tarea.idEmpleado.replace(/\./g, ''))
+                            documento: parseInt(this.tarea.idEmpleado.replace(/\./g, '')) || 0
                         },
                         tipoTrabajo: {
                             tipo: this.tarea.tipoTrabajoFinca
@@ -51,7 +51,7 @@ function createVueApp(dataFunction) {
                 }
             },
             validarFormulario() {
-                if (!this.tarea.idEmpleado || !this.tarea.tipoTrabajoFinca || !this.tarea.finca || !this.tarea.ubicacion || !this.tarea.nomenclatura) {
+                if (!this.tarea.tipoTrabajoFinca || !this.tarea.finca || !this.tarea.ubicacion || !this.tarea.nomenclatura) {
                     alert("Todos los campos excepto descripción son obligatorios.");
                     return false;
                 }
