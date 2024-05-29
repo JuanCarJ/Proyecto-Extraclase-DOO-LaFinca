@@ -3,6 +3,7 @@ package co.edu.uco.fink.data.dao.sql.postgresql;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.custom.DataFinKException;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje;
+import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 import co.edu.uco.fink.data.dao.EmpleadoDAO;
 import co.edu.uco.fink.data.dao.sql.SQLconnection;
 import co.edu.uco.fink.entity.EmpleadoEntity;
@@ -39,14 +40,14 @@ public final class EmpleadoPostgreSQLDAO extends SQLconnection implements Emplea
                 }
             }
         } catch (final SQLException exception){
-            var mensajeUsuario = "No ha sido posible llevar a cabo la consulta de los empleados. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000023);
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000028), "SELECT", "empleados", "empleado");
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (final DataFinKException exception){
             throw exception;
         } catch (final Exception exception) {
-            var mensajeUsuario = "No ha sido posible llevar a cabo la consulta de los empleados. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000024);
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000030), "SELECT", "empleados", "empleado");;
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
         return listaEmpleados;
@@ -54,7 +55,7 @@ public final class EmpleadoPostgreSQLDAO extends SQLconnection implements Emplea
 
     @Override
     public final List<EmpleadoEntity> consultarEmpleado(final EmpleadoEntity entidad) {
-        return null;
+        return List.of();
     }
 
 

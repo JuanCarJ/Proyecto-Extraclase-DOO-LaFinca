@@ -1,12 +1,8 @@
 package co.edu.uco.fink.business.assembler.entity.concrete;
 
 import co.edu.uco.fink.business.assembler.entity.EntityDomainAssembler;
-import co.edu.uco.fink.business.domain.EmpleadoDomain;
 import co.edu.uco.fink.business.domain.TipoTareaFincaDomain;
 import co.edu.uco.fink.crosscutting.helpers.ObjectHelper;
-import co.edu.uco.fink.entity.EmpleadoEntity;
-import co.edu.uco.fink.entity.TareaFincaEntity;
-import co.edu.uco.fink.entity.TipoEstadoEntity;
 import co.edu.uco.fink.entity.TipoTareaFincaEntity;
 
 import java.util.ArrayList;

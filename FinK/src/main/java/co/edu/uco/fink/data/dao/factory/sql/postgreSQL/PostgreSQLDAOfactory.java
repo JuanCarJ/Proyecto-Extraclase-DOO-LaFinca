@@ -58,28 +58,8 @@ public final class PostgreSQLDAOfactory extends DAOfactory {
     }
 
     @Override
-    public RegistroEstadoTareaDAO getRegistroEstadoTareaDAO() {
-        return null;
-    }
-
-    @Override
-    public SuministroRequeridoDAO getSuministroRequeridoDAO() {
-        return null;
-    }
-
-    @Override
     public TareaFincaDAO getTareaFincaDAO() {
         return new TareaFincaPostgreSQLDAO(connection);
-    }
-
-    @Override
-    public TipoEstadoDAO getTipoEstadoDAO() {
-        return null;
-    }
-
-    @Override
-    public TipoSuministroDAO getTipoSuministroDAO() {
-        return null;
     }
 
     @Override

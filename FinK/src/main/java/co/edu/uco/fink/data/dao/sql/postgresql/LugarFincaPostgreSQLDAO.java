@@ -3,11 +3,11 @@ package co.edu.uco.fink.data.dao.sql.postgresql;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.custom.DataFinKException;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje;
+import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 import co.edu.uco.fink.data.dao.LugarFincaDAO;
 import co.edu.uco.fink.data.dao.sql.SQLconnection;
 import co.edu.uco.fink.entity.FincaEntity;
 import co.edu.uco.fink.entity.LugarFincaEntity;
-import co.edu.uco.fink.entity.TipoSuministroEntity;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -39,14 +39,14 @@ public final class LugarFincaPostgreSQLDAO extends SQLconnection implements Luga
                 }
             }
         } catch (final SQLException exception){
-            var mensajeUsuario = "No ha sido posible llevar a cabo la consulta de los países. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la finca";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000023);
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000028), "SELECT", "lugares de las fincas", "lugarfinca");
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (final DataFinKException exception){
             throw exception;
         } catch (final Exception exception) {
-            var mensajeUsuario = "No ha sido posible llevar a cabo la consulta de los países. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la finca";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000024);
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000030), "SELECT", "lugares de las fincas", "lugarfinca");
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
         return listaLugares;

@@ -3,6 +3,7 @@ package co.edu.uco.fink.data.dao.sql.postgresql;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.custom.DataFinKException;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje;
+import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 import co.edu.uco.fink.data.dao.FincaDAO;
 import co.edu.uco.fink.data.dao.sql.SQLconnection;
 import co.edu.uco.fink.entity.EmpleadoEntity;
@@ -37,14 +38,14 @@ public class FincaPostgreSQLDAO extends SQLconnection implements FincaDAO {
                 }
             }
         } catch (final SQLException exception){
-            var mensajeUsuario = "No ha sido posible llevar a cabo la consulta de las Fincas. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000023);
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000028), "SELECT", "fincas", "finca");
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (final DataFinKException exception){
             throw exception;
         } catch (final Exception exception) {
-            var mensajeUsuario = "No ha sido posible llevar a cabo la consulta de las Fincas. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000024);
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000030), "SELECT", "fincas", "finca");
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
         return listaFincas;

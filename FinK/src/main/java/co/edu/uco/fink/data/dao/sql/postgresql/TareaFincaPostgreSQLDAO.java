@@ -3,10 +3,12 @@ package co.edu.uco.fink.data.dao.sql.postgresql;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrategy;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.custom.DataFinKException;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje;
+import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 import co.edu.uco.fink.data.dao.TareaFincaDAO;
 import co.edu.uco.fink.data.dao.sql.SQLconnection;
 import co.edu.uco.fink.entity.*;
 
+import java.io.Console;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -21,25 +23,7 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
     }
 
     @Override
-    public void actualizar(TareaFincaEntity entidad) {
-        final var sentenciaSQL = new StringBuilder();
-        sentenciaSQL.append("UPDATE TareaFinca");
-        sentenciaSQL.append("SET EmpleadoAsignado = ?");
-        sentenciaSQL.append("WHERE identificador = ?");
-
-        try (final PreparedStatement sentenciaPreparada = getConnection().prepareStatement(sentenciaSQL.toString())) {
-            sentenciaPreparada.setInt(1, entidad.getEmpleadoAsignado().getDocumento());
-            sentenciaPreparada.setInt(2, entidad.getIdentificador());
-            sentenciaPreparada.executeUpdate();
-        } catch (final SQLException exception) {
-            var mensajeUsuario = "No ha sido posible llevar a cabo la actualización de la información del país. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000023, entidad.getDescripcion());
-            throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
-        } catch (final Exception exception) {
-            var mensajeUsuario = "No ha sido posible llevar a cabo la actualización de la información del país. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000024, entidad.getDescripcion());
-            throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
-        }
+    public void actualizar(TareaFincaEntity entidad){
     }
 
     @Override
@@ -70,14 +54,14 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
                 }
             }
         } catch (final SQLException exception){
-            var mensajeUsuario = "No ha sido posible llevar a cabo la consulta de los países. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la finca";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000023);
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000028), "SELECT", "tareas", "tarea");
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (final DataFinKException exception){
             throw exception;
         } catch (final Exception exception) {
-            var mensajeUsuario = "No ha sido posible llevar a cabo la consulta de los países. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la finca";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000024);
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000028), "SELECT", "tareas", "tarea");
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
         return listaTareas;
@@ -106,12 +90,12 @@ public final class TareaFincaPostgreSQLDAO extends SQLconnection implements Tare
             sentenciaPreparada.setString(7, entidad.getDescripcion());
             sentenciaPreparada.executeUpdate();
         } catch (final SQLException exception) {
-            var mensajeUsuario = "No ha sido posible llevar a cabo el registro de la información del nuevo país. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000023, entidad.getDescripcion());
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000029), entidad.getTipoTrabajo().getTipo(), String.valueOf(entidad.getCodigo()));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000028), "CREATE", "tarea", "tareafinca");
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         } catch (final Exception exception) {
-            var mensajeUsuario = "No ha sido posible llevar a cabo el registro de la información del nuevo país. Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app tiendaChepito";
-            var mensajeTecnico = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000024, entidad.getDescripcion());
+            var mensajeUsuario = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000029), entidad.getTipoTrabajo().getTipo(), String.valueOf(entidad.getCodigo()));
+            var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000030), "SELECT", "empleados", "empleado");
             throw new DataFinKException(mensajeTecnico, mensajeUsuario, exception);
         }
     }

@@ -4,6 +4,7 @@ import co.edu.uco.fink.crosscutting.exception.messageCatalog.MessageCatalogStrat
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.custom.DataFinKException;
 import co.edu.uco.fink.crosscutting.exception.messageCatalog.data.CodigoMensaje;
 import co.edu.uco.fink.crosscutting.helpers.SQLHelper;
+import co.edu.uco.fink.crosscutting.helpers.TextHelper;
 
 import java.sql.Connection;
 
@@ -17,7 +18,7 @@ public class SQLconnection {
     private final void setConnection(final Connection connection) {
        if (!SQLHelper.isOpen(connection)){
            var mensajeUsuario = MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M00002);
-           var mensajeTecnico = "No es posible crear el DAO deseado dado que la connexión SQL está cerrada";
+           var mensajeTecnico = TextHelper.replaceParams(MessageCatalogStrategy.getContenidoMensaje(CodigoMensaje.M000027));
 
            throw new DataFinKException(mensajeTecnico, mensajeUsuario);
        }

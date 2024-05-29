@@ -61,6 +61,16 @@ public class MessageCatalogBase implements MessageCatalog {
                 "Se ha presentado un problema tratando de iniciar una transaccion SQL, con la fuente de informacion deseada..."));
         mensajes.put(CodigoMensaje.M000022.getIdentificador(), new Mensaje(CodigoMensaje.M000022,
                 "Se ha presentado un problema INESPERADO tratando de iniciar una transaccion SQL, con la fuente de informacion deseada..."));
+        mensajes.put(CodigoMensaje.M000027.getIdentificador(), new Mensaje(CodigoMensaje.M000027,
+                "No es posible crear el DAO deseado dado que la connexión SQL está cerrada"));
+        mensajes.put(CodigoMensaje.M000028.getIdentificador(), new Mensaje(CodigoMensaje.M000028,
+                "Se ha presentado un error realizando un \"${1}\"  de \"${2}\" en la tabla \"${3}\"  de la base de datos PostgreSQL..."));
+        mensajes.put(CodigoMensaje.M000029.getIdentificador(), new Mensaje(CodigoMensaje.M000029,
+                "No ha sido posible llevar a cabo el registro de la información de la tarea \"${1}\"-\"${2}\". Por favor intente de nuevo y en caso de persistir el problema comuníquese con el administrador de la app FinK"));
+        mensajes.put(CodigoMensaje.M000030.getIdentificador(), new Mensaje(CodigoMensaje.M000030,
+                "Se ha presentado un error INESPERADO realizando un \"${1}\"  de \"${2}\" en la tabla \"${3}\"  de la base de datos PostgreSQL..."));
+        mensajes.put(CodigoMensaje.M000031.getIdentificador(), new Mensaje(CodigoMensaje.M000031,
+                "No existe configurada una factoria de datos para una base de datos \"${1}\""));
     }
 
     @Override
