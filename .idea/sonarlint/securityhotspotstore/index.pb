@@ -87,3 +87,7 @@ n
 >FinK/src/main/java/co/edu/uco/fink/data/dao/TareaFincaDAO.java,3\7\37bace8a0066c6bc41b40a013d4a8c86b6f299cb
 r
 BFinK/src/main/java/co/edu/uco/fink/data/dao/sql/SQLconnection.java,1\c\1c44fee95d37e37bc2f6489312ba875255dba590
+Š
+ZFinK/src/main/java/co/edu/uco/fink/crosscutting/exception/messageCatalog/data/Mensaje.java,9\d\9d84e761163b9141037a0be21990a40676c83a99
+Ž
+^FinK/src/main/java/co/edu/uco/fink/crosscutting/exception/messageCatalog/data/TipoMensaje.java,0\6\0603e13a8ead91e12eea87be79b9f3a4f768035c

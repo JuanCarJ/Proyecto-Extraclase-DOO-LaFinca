@@ -46,7 +46,7 @@ public final class TextHelper {
     public static final String replaceParams(final String mensaje, final String... params) {
         String result = mensaje;
 
-        for (int i = 0; i <= params.length; i++){
+        for (int i = 0; i < params.length; i++){
             String pattern = "${" + (i+1) + "}";
 
             result = result.replace(pattern, TextHelper.applyTrim(params[i]));
