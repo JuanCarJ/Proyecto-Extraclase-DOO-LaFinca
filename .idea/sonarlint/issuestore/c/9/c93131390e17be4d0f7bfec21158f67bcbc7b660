@@ -1,6 +1,4 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éè²
-Q
-java:S6437"6Revoke and change this password, as it is compromised.(ä¢ôŞüÿÿÿÿ
-\
-java:S1128"GRemove this unused import 'co.edu.uco.fink.data.dao.sql.SQLconnection'.(Ú…‡&
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éè²J$d63c7250-490c-431b-a465-fe83300d1104
+w
+java:S6437"6Revoke and change this password, as it is compromised.(ä¢ôŞüÿÿÿÿJ$a8937e6a-6156-4903-9ec1-6bc41387eeed

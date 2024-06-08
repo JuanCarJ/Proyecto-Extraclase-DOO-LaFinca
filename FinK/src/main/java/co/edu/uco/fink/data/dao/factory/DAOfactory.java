@@ -68,4 +68,6 @@ public abstract class DAOfactory {
     public abstract TipoTareaFincaDAO getTipoTareaFincaDAO();
 
     public abstract FincaDAO getFincaDAO();
+
+    public abstract AlmacenProducidoDAO getAlmacenProducidoDAO();
 }

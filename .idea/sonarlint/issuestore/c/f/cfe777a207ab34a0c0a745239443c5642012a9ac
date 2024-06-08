@@ -1,17 +1,17 @@
 
-L
-java:S1066D"/Merge this if statement with the enclosing one.(Şü½8±³ü1
-Q
-java:S1066W"/Merge this if statement with the enclosing one.(ÚÈôïùÿÿÿÿ8±³ü1
-M
-java:S1066"/Merge this if statement with the enclosing one.(Ö¬•Ä8±³ü1
-R
-java:S1066‚"/Merge this if statement with the enclosing one.(À°œ¾şÿÿÿÿ8±³ü1
-H
-java:S1481 ",Remove this unused "ignored" local variable.(‹¢Ç\8´²³ü1
-o
-java:S37766"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ŸëÑò8¸²³ü1
-o
-java:S3776w"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(›î8¾²³ü1
-u
-java:S2737¦"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8Ä²³ü1
+r
+java:S1066D"/Merge this if statement with the enclosing one.(Şü½8±³ü1J$e140ef22-31b9-4439-a60d-8062403117fd
+w
+java:S1066W"/Merge this if statement with the enclosing one.(ÚÈôïùÿÿÿÿ8±³ü1J$30d90d8f-97e8-4e2f-a184-2da078da3a1a
+r
+java:S1066"/Merge this if statement with the enclosing one.(Ö¬•Ä8±³ü1J$194d8143-1d17-4f96-882c-5a2c05f2f8b4
+x
+java:S1066€"/Merge this if statement with the enclosing one.(À°œ¾şÿÿÿÿ8±³ü1J$f940164b-6213-4676-8c8e-0a1eb08eaf27
+n
+java:S1481 ",Remove this unused "ignored" local variable.(‹¢Ç\8´²³ü1J$81866e0d-0ff2-40f3-a936-bfac0cf4f01b
+•
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ŸëÑò8¸²³ü1J$833cc858-9b8e-4370-a67c-217a7bfef2ba
+•
+java:S3776w"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(›î8¾²³ü1J$6f00e925-b869-4b33-8c1e-65ae6181c923
+›
+java:S2737¤"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8Ä²³ü1J$e58e2d29-442a-486b-b1ef-d13f6c8edd0c

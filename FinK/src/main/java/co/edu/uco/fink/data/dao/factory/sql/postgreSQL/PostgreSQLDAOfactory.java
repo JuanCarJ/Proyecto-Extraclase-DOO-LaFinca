@@ -71,4 +71,9 @@ public final class PostgreSQLDAOfactory extends DAOfactory {
     public FincaDAO getFincaDAO() {
         return new FincaPostgreSQLDAO(connection);
     }
+
+    @Override
+    public AlmacenProducidoDAO getAlmacenProducidoDAO() {
+        return new AlmacenProducidoSQLDAO(connection);
+    }
 }

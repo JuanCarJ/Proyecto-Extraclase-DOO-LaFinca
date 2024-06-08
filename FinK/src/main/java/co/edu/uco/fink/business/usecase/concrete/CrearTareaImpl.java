@@ -117,8 +117,6 @@ public class CrearTareaImpl implements CrearTarea {
     }
 
     public final int validarLugar(TareaFincaEntity tarea){
-
-
         List<LugarFincaEntity> resultado = factory.getLugarFincaDAO().consultar(tarea.getLugar());
 
         int id = 0;
