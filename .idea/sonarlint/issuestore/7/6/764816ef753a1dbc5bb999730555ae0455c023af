@@ -1,0 +1,14 @@
+
+Œ	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñö«ýJ$bd0d05d7-5022-4dbc-8eea-54f8ce8be92f
+‡
+java:S1192:"FDefine a constant instead of duplicating this literal "tarea" 3 times.(ˆä‡ÝýÿÿÿÿJ$e0b12ebd-f7ec-4c7f-a934-020b054d29ab
+ˆ
+java:S1192:"GDefine a constant instead of duplicating this literal "SELECT" 3 times.(ˆä‡ÝýÿÿÿÿJ$aa2fc692-507e-498d-aee9-31f22a1ba1d3
+½
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“øƒÀJ$b985a328-114a-4228-bd05-087ece31e6b7
+…
+java:S2147>"DCombine this catch with the one at line 56, which has the same body.(ôÐ’ºùÿÿÿÿJ$05393888-3a3a-459c-b32e-ab0d2e1f477c
+g
+java:S14812"+Remove this unused "Tareas" local variable.(ñö«ýJ$4e106f75-ae39-4b52-a244-b76fdef90e51
+m
+java:S1128",Remove this unused import 'java.io.Console'.(ŽæÅªýÿÿÿÿJ$d1fc64d3-5f65-4e66-b370-5b32a6ac9039
