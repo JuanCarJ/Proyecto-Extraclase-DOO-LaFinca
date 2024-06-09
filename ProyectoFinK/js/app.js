@@ -46,24 +46,25 @@ function createVueApp(dataFunction) {
                     })
                     .catch(error => {
                         console.error('Error:', error);
-                        alert(`Hubo un error al crear la tarea, con el siguiente detalle: ${error.message}`);
+                        alert(`Hubo un error al crear la tarea: ${error.message}`);
                     });
                 }
             },
             validarFormulario() {
-                if (!this.tarea.tipoTrabajoFinca || !this.tarea.finca || !this.tarea.ubicacion || !this.tarea.nomenclatura) {
-                    alert("Todos los campos excepto descripción son obligatorios.");
+                if (!this.tarea.idEmpleado || !this.tarea.tipoTrabajoFinca || !this.tarea.finca || !this.tarea.ubicacion || !this.tarea.nomenclatura) {
+                    alert("Todos los campos excepto Descripción son obligatorios.");
                     return false;
                 }
                 return true;
             },
             formatearCedula() {
+                if (this.tarea.idEmpleado === '0') return;
                 let cedula = this.tarea.idEmpleado.replace(/\D/g, '');
                 cedula = cedula.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
                 this.tarea.idEmpleado = cedula;
             },
             cargarDatos() {
-                fetch('../data/datos.json')
+                fetch('data/datos.json')
                     .then(response => response.json())
                     .then(data => {
                         this.fincas = data.fincas;
@@ -80,7 +81,7 @@ function createVueApp(dataFunction) {
                 this.tarea.nomenclatura = this.tarea.nomenclatura.replace(/[^a-zA-Z]/g, '').toUpperCase();
             },
             restablecerFormulario() {
-                this.tarea.idEmpleado = '';
+                this.tarea.idEmpleado = '0';
                 this.tarea.tipoTrabajoFinca = '';
                 this.tarea.finca = '';
                 this.tarea.ubicacion = '';
@@ -96,7 +97,7 @@ function createVueApp(dataFunction) {
 
 const appData = () => ({
     tarea: {
-        idEmpleado: '',
+        idEmpleado: '0',
         tipoTrabajoFinca: '',
         finca: '',
         ubicacion: '',
